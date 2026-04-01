@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Secrets and local env (never commit)
+.env
+.env.*
+!.env.example
+
+# uv: commit uv.lock and pyproject.toml
+
+# Testing / coverage / types
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Google ADK local runtime (session DB, etc.)
+.adk/
+**/.adk/

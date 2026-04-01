@@ -1,0 +1,11 @@
+[project]
+name = "mycir-agent-adk-v1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk>=1.28.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.2",
+]
