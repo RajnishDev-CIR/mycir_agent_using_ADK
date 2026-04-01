@@ -3,7 +3,7 @@
 ## What Is MyCIR Agent?
 
 MyCIR Agent is a multi-agent AI platform built on Google's Agent Development Kit (ADK) for
-CIR (Clean Infrastructure & Renewables) internal use. It provides intelligent, data-driven
+CIR (Cleantech Industry Resources) internal use. It provides intelligent, data-driven
 decision support for renewable energy project development.
 
 MyCIR is a **super-agent** — a top-level orchestrator that routes user requests to the
@@ -79,9 +79,72 @@ MyCIR Agent  ←  super-agent, pure router
 │       ├── V1 Runner
 │       └── Comparison Report Agent
 │
-├── Yield Analysis Agent     ←  future
-└── Proposal Gen Agent       ←  future
+└── (Future specialists — see **Roadmap: agentic service integration** below)
 ```
+
+---
+
+## Roadmap: agentic service integration
+
+This section reflects CIR automation leadership’s direction: evolve from **standard, linear workflows** toward **Agentic AI** — agents that reason, call tools, and make data-driven decisions throughout the renewable project lifecycle. The aim is not only to “automate tasks” but to build **autonomous capacity** that can compete in renewable energy services.
+
+### Core objective
+
+Develop a **suite of specialized agents** embedded in real service delivery. Each agent should:
+
+- Take **high-level objectives** (example: *prepare a bid-ready estimate for a 50 MW site in Texas*) and break them into actionable sub-tasks.
+- **Execute** those sub-tasks using internal systems and external information.
+- **Verify** results against **historical data** and benchmarks where CIR has them (e.g. estimation vs past estimates and V1 baseline).
+
+### Cross-cutting expectations (every agent)
+
+| Theme | Expectation |
+| --- | --- |
+| **Tooling** | Agents are **expertly calibrated** to **internal APIs** — implement APIs where they do not exist yet — and to **external search** (and other retrieval) where market or regulatory facts are required. |
+| **Quality** | **Reasoning loops** and **self-correction**: the agent should **audit its own output** for logical inconsistencies before presenting results. |
+| **Governance** | **Human-in-the-loop (HITL)**: specialists can **approve or adjust** agent-generated data before it reaches a **client-facing** deliverable. |
+
+### Service integration scopes
+
+Priority and sequencing are for Automation, Operations, and leadership to confirm. **Autonomous preliminary CAPEX / estimation** is a natural first bet alongside this repo; **Development** or **Engineering** are equally valid starting points if resourcing and dependencies favor them.
+
+#### Development (lead origination)
+
+- Pull **GIS**, **ownership**, **capacity estimates**, and related inputs autonomously.
+- Assess **site feasibility** against the parameters CIR already uses for **lead origination**.
+- Produce a **compiled spreadsheet** (or equivalent) in **predefined formats** the business already expects.
+- CIR already has a **documented lead-origination workflow**; the goal is to **reimplement that path as an agentic process**, not to reinvent the process from scratch.
+
+#### Engineering (layouts and design support)
+
+- Use **EPSA** (and existing engineering capabilities) to help **generate or initiate layouts** for **PV**, including **at least on the order of ~1 MW** projects and scaling up as the toolchain allows.
+- Extend to **BESS** layout where the stack can support it; the **BESS layout tool developed for Fluence** is a practical reference for which components and patterns to expose to an agent.
+
+#### Estimation (CAPEX and budgets)
+
+- Move **beyond static spreadsheets** toward budgets built from **live market signals** plus CIR’s own discipline.
+- **Coordinate with Operations** to obtain **preliminary CAPEX** and **detailed CAPEX** spreadsheets in current use, plus the **standard operating procedure (SoP)** for preparing them.
+- Enrich that baseline with **validated datasets** available online.
+- Deliver **at least preliminary estimation** in an **automated** way, with HITL review — **Capex Agent V2** in this codebase is the technical anchor for the estimation track.
+
+#### Procurement (sourcing intelligence)
+
+- Monitor **global supply chains** and **module / inverter price** movements.
+- Track **tariffs** and related **regulatory or legal** changes that affect buying.
+- **Flag opportunistic buying windows** that the team can **relay to customers**.
+- Leadership expects this may require **substantial new work** but is **feasible** as a dedicated agent effort.
+
+#### Operations & maintenance
+
+Two complementary directions:
+
+1. **Performance analytics** — Agents that ingest **SCADA / DAS** data, analyze performance, and produce **automated reports**. Depth of agentic automation can mirror lessons from prior **dashboard-style** client work (e.g. Participate-style engagements): the team decides how far to push autonomy vs assisted analysis.
+2. **Field robotics (longer term)** — Use planned **quadruped** and **drone** capabilities for **performance assessment** and **active site reviews**, then turn assessments into **reports** and **equipment deficiency** signals at the back end.
+
+### Planning and stakeholders
+
+- Roadmap execution is intentionally **cross-functional**: touchpoints across **Automation**, **Operations**, **Engineering**, and service lines.
+- Expect a **written plan of action** from automation leadership, discussion in the **regular automation forum** (e.g. weekly huddle), and — once the internal plan is stable — **review with broader leadership** as CIR’s process defines.
 
 ---
 
@@ -107,8 +170,7 @@ MyCIR Agent  ←  super-agent, pure router
 | MyCIR Super Agent | To build |
 | Capex Agent V2 | To build |
 | Benchmark Validation Agent | To build |
-| Yield Analysis Agent | Future |
-| Proposal Gen Agent | Future |
+| Future specialists (Development, Engineering, Procurement, O&M) | Roadmap — see above |
 
 ---
 

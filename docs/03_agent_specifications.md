@@ -18,22 +18,22 @@ Each agent's role, inputs, outputs, tools, and failure behaviour.
 
 **What it does NOT do:**
 - Ask for project details
-- Know what CAPEX, yield, or proposals mean in detail
+- Interpret domain workflows beyond choosing which specialist handles the message
 - Do any calculations or web searches
 
 **Sub-agents (as AgentTools):**
-- `capex_agent_v2`
-- `yield_analysis_agent` (future — placeholder)
-- `proposal_gen_agent` (future — placeholder)
+- `capex_agent_v2` (active)
 
-**Routing rules:**
+Additional specialists will be registered here as they are implemented per the CIR roadmap (Development, Engineering, Procurement, O&M — see [01_project_overview](01_project_overview.md)).
+
+**Routing rules (today):**
 ```
 "capex", "cost", "estimate", "budget", "$/Wp", "EPC", "price"  →  capex_agent_v2
 "compare", "benchmark", "validate"                              →  capex_agent_v2
-"yield", "energy", "production", "kWh", "irradiance"           →  yield_analysis_agent
-"proposal", "report", "document", "client presentation"        →  proposal_gen_agent
 unclear                                                         →  ask one clarifying question
 ```
+
+**Routing rules (future):** When new AgentTools exist, extend the table by intent (e.g. GIS / lead origination → Development agent; layout / EPSA / BESS → Engineering agent) without adding domain logic to MyCIR.
 
 ---
 

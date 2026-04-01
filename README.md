@@ -23,11 +23,13 @@ MyCIR Agent  (super-agent — routes to specialists)
 │       ├── V1 Runner
 │       └── Comparison Report Agent
 │
-├── Yield Analysis Agent      ← future
-└── Proposal Gen Agent        ← future
+└── (Future specialists — Development, Engineering, Procurement, O&M;
+     see docs/01_project_overview.md)
 ```
 
 V1 (`capex_agent/`) is preserved as the benchmark baseline — do not modify.
+
+CIR’s broader **agentic AI** goals (autonomous capacity, five service scopes, APIs + search, self-correction, HITL, and planning expectations) are summarized in [docs/01_project_overview.md](docs/01_project_overview.md#roadmap-agentic-service-integration).
 
 ---
 
@@ -122,8 +124,7 @@ mycir_agent_ADK_v1/
 │       │   └── benchmark_validation/
 │       │       ├── v1_runner/
 │       │       └── comparison_report/
-│       ├── yield_analysis/         ← future
-│       └── proposal_gen/           ← future
+│       └── (future packages per service roadmap — see docs/01_project_overview.md)
 │
 ├── docs/                           ← all project documentation
 │   ├── README.md                   ← docs index
@@ -149,6 +150,8 @@ mycir_agent_ADK_v1/
 
 ## Documentation
 
+**GitHub repository:** [github.com/RajnishDev-CIR/mycir_agent_using_ADK](https://github.com/RajnishDev-CIR/mycir_agent_using_ADK)
+
 Full design docs are in [docs/](docs/). Start with [docs/README.md](docs/README.md).
 
 | Doc | Covers |
@@ -161,3 +164,6 @@ Full design docs are in [docs/](docs/). Start with [docs/README.md](docs/README.
 | [06 Benchmark](docs/06_benchmark_validation.md) | Validation layer design, flag/warn/pass logic |
 | [07 ADK Technical](docs/07_adk_technical_design.md) | Session, parallel agents, error callbacks |
 | [08 Compliance](docs/08_compliance_regulatory.md) | FEOC, prevailing wage, IRA credits, CA specifics |
+| [09 Hosting & feedback](docs/09_hosting_and_feedback.md) | GitHub Pages, MkDocs, Giscus comments |
+
+**Published doc site (optional):** after pushing to GitHub, use `uv sync --group docs` and `uv run mkdocs serve` locally, or enable the **Deploy documentation** workflow — see [09](docs/09_hosting_and_feedback.md).

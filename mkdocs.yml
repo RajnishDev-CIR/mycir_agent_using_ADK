@@ -1,0 +1,76 @@
+# MyCIR documentation site — build locally: uv sync --group docs && uv run mkdocs serve
+# Host on GitHub Pages: see docs/09_hosting_and_feedback.md
+site_name: MyCIR Agent
+site_description: Design and technical documentation for the MyCIR ADK multi-agent platform
+# GitHub Pages (project site) — enable in repo Settings → Pages → GitHub Actions
+site_url: https://rajnishdev-cir.github.io/mycir_agent_using_ADK/
+
+repo_url: https://github.com/RajnishDev-CIR/mycir_agent_using_ADK
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.expand
+    - navigation.sections
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Documentation index: README.md
+  - "01 — Project overview": 01_project_overview.md
+  - "02 — Architecture V2": 02_architecture_v2.md
+  - "03 — Agent specifications": 03_agent_specifications.md
+  - "04 — Engineering logic": 04_engineering_logic.md
+  - "05 — V1 lessons learned": 05_v1_lessons_learned.md
+  - "06 — Benchmark validation": 06_benchmark_validation.md
+  - "07 — ADK technical design": 07_adk_technical_design.md
+  - "08 — Compliance & regulatory": 08_compliance_regulatory.md
+  - "09 — Hosting & feedback": 09_hosting_and_feedback.md
+
+# Page comments (Giscus = GitHub Discussions). See docs/09_hosting_and_feedback.md
+extra:
+  comments:
+    enabled: false
+    # After configuring giscus.app, set enabled: true and fill in:
+    # provider: giscus
+    # giscus:
+    #   repo: RajnishDev-CIR/mycir_agent_using_ADK
+    #   repo_id: "<from giscus.app>"
+    #   category: Documentation
+    #   category_id: "<from giscus.app>"
+    #   mapping: pathname
+    #   strict: 0
+    #   reactions_enabled: 1
+    #   input_position: bottom
+    #   theme: preferred_color_scheme

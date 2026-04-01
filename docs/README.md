@@ -2,13 +2,15 @@
 
 This folder contains all design and technical documentation for the MyCIR Agent project.
 
+**Publish this site / enable comments:** see [09 — Hosting & feedback](09_hosting_and_feedback.md).
+
 ---
 
 ## Documents
 
 | # | Document | What it covers |
 |---|---|---|
-| 01 | [Project Overview](01_project_overview.md) | What MyCIR is, why we built it, V1 vs V2 scope, agent hierarchy, tech stack |
+| 01 | [Project Overview](01_project_overview.md) | What MyCIR is, why we built it, V1 vs V2 scope, agent hierarchy, full CIR agentic roadmap (objectives, five service scopes, cross-cutting requirements, planning stakeholders), tech stack |
 | 02 | [Architecture V2](02_architecture_v2.md) | Full agent hierarchy diagram, orchestration order, data flow, folder structure |
 | 03 | [Agent Specifications](03_agent_specifications.md) | Every agent: role, inputs, outputs, tools, failure behaviour |
 | 04 | [Engineering Logic](04_engineering_logic.md) | Inverter type selection, structure type, DC/AC ratio, panel count, transformer, BOM |
@@ -16,6 +18,7 @@ This folder contains all design and technical documentation for the MyCIR Agent 
 | 06 | [Benchmark Validation](06_benchmark_validation.md) | How V1 vs V2 comparison works, flag/warn/pass logic, benchmark log format |
 | 07 | [ADK Technical Design](07_adk_technical_design.md) | Session persistence, parallel agents, error callbacks, observability, build order |
 | 08 | [Compliance & Regulatory](08_compliance_regulatory.md) | FEOC, prevailing wage, IRA tax credits, CA-specific, tariffs, interconnection |
+| 09 | [Hosting & feedback](09_hosting_and_feedback.md) | Publish docs (GitHub Pages, MkDocs), Giscus comments, Issues/PR alternatives |
 
 ---
 

@@ -9,13 +9,14 @@
 │         Saves session · understands intent · delegates      │
 └────────────────────────┬────────────────────────────────────┘
                          │
-          ┌──────────────┼──────────────┐
-          ▼              ▼              ▼
-   ┌─────────────┐  ┌──────────┐  ┌──────────────┐
-   │ Capex Agent │  │  Yield   │  │  Proposal    │
-   │     V2      │  │ Analysis │  │    Gen       │
-   │  (active)   │  │ (future) │  │  (future)    │
-   └──────┬──────┘  └──────────┘  └──────────────┘
+                          ▼
+                   ┌─────────────┐
+                   │ Capex Agent │
+                   │     V2      │
+                   │  (active)   │
+                   └──────┬──────┘
+          (Future: Development, Engineering, Procurement, O&M specialists —
+           see docs/01_project_overview.md.)
           │
           │  SequentialAgent orchestration
           │
@@ -89,9 +90,9 @@ MyCIR Agent's ONLY job is to understand intent and route.
 |---|---|
 | Anything about cost, price, budget, CAPEX, EPC, $/Wp | Capex Agent V2 |
 | "compare", "benchmark", "validate" | Capex Agent V2 (handles internally) |
-| Anything about yield, energy, kWh, production | Yield Analysis Agent (future) |
-| "proposal", "document", "report for client" | Proposal Gen Agent (future) |
 | Unclear intent | Asks one clarifying question, then routes |
+
+When future specialists exist (lead origination / GIS, engineering layouts, procurement intel, O&M analytics — see [01_project_overview](01_project_overview.md)), MyCIR will route by intent to those agents using the same pattern: one row per specialist, no domain work in the router.
 
 MyCIR never passes domain context downstream. It passes only the raw user message and
 session ID. Each specialist agent manages its own context.
@@ -264,8 +265,8 @@ mycir_agent_ADK_v1/
 │       │       └── comparison_report/
 │       │           └── agent.py
 │       │
-│       ├── yield_analysis/            ← future
-│       └── proposal_gen/              ← future
+│       └── (future packages per service roadmap — e.g. development, engineering
+│           layouts, procurement, o_and_m — see docs/01_project_overview.md)
 │
 ├── docs/                              ← all project documentation
 ├── benchmark_log/                     ← append-only benchmark run history

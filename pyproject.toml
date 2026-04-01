@@ -22,3 +22,9 @@ dependencies = [
     # Export: Excel already covered by openpyxl; PDF below
     "reportlab>=4.2.0",
 ]
+
+[dependency-groups]
+docs = [
+    "mkdocs>=1.6",
+    "mkdocs-material>=9.5",
+]
