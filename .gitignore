@@ -44,3 +44,9 @@ Thumbs.db
 # Google ADK local runtime (session DB, etc.)
 .adk/
 **/.adk/
+
+# Benchmark log data (internal — do not commit run history)
+benchmark_log/*.jsonl
+
+# Docker local overrides
+docker-compose.override.yml

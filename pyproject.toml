@@ -1,11 +1,24 @@
 [project]
 name = "mycir-agent-adk-v1"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.2.0"
+description = "MyCIR Agent — AI-powered renewable energy project intelligence"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    # Core agent framework
     "google-adk>=1.28.0",
+
+    # Data handling (V1 + V2)
     "openpyxl>=3.1.5",
     "pandas>=3.0.2",
+
+    # PostgreSQL session persistence (V2)
+    "psycopg2-binary>=2.9.9",
+    "sqlalchemy>=2.0.0",
+
+    # Environment config
+    "python-dotenv>=1.0.0",
+
+    # Export: Excel already covered by openpyxl; PDF below
+    "reportlab>=4.2.0",
 ]

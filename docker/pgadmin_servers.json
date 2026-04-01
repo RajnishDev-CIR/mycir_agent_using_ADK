@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "MyCIR Postgres",
+      "Group": "MyCIR",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "mycir",
+      "Username": "mycir_user",
+      "SSLMode": "prefer"
+    }
+  }
+}
