@@ -15,54 +15,82 @@ from typing import Optional
 log = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────────────────────────────────────
-# HARDCODED FALLBACKS — mirrors docker/init.sql seed data exactly.
-# Used when Postgres is unreachable (dev without Docker, CI, etc.)
+# HARDCODED FALLBACKS — calibrated from 10 CIR historical projects (Dec 2025).
+# Projects: Mansfield (OH, 720kWp GM), DS Containers (IL, 935kWp GM),
+#   VanVoorst (IL, 984kWp GM), Unilock-Marengo (IL, 1.63MWp GM),
+#   Radiac (IL, 2.43MWp GM), Viscofan (IL, 2.36MWp GM), Dayton (OH, 3MWp SAT),
+#   Mennie (IL, 4.28MWp SAT), Marengo (IL, 861kWp RT), Mattingly (OH, 1.93MWp RT).
+#
+# Equipment assumptions: First Solar FS-7500A modules, ChintPower CPS inverters.
+# Rates are Midwest/national base; state multipliers applied by location_intel.
+# Margin=10% of subtotal, Contingency=3% of (subtotal+margin) — per Excel template.
 # ─────────────────────────────────────────────────────────────────────────────
 
-# (system_type, size_min, size_max) → rate dict
+# (system_type, size_min_mwp, size_max_mwp) → rate dict
+# sga is kept at 0.0 for backward-compat; overhead already includes all indirect costs.
 _SYSTEM_RATE_FALLBACK = {
-    # Ground Mount
-    ("GM", 0.000,  0.500): dict(module=0.32, inverter=0.09, racking=0.21, racking_sat=0.27, bos=0.35, mechanical=0.17, electrical=0.20, civil=0.12, overhead=0.05, sga=0.14, contingency=0.10, margin=0.18),
-    ("GM", 0.500,  1.000): dict(module=0.28, inverter=0.09, racking=0.21, racking_sat=0.26, bos=0.35, mechanical=0.17, electrical=0.20, civil=0.12, overhead=0.05, sga=0.14, contingency=0.05, margin=0.15),
-    ("GM", 1.000,  3.000): dict(module=0.24, inverter=0.09, racking=0.21, racking_sat=0.25, bos=0.32, mechanical=0.17, electrical=0.20, civil=0.12, overhead=0.05, sga=0.14, contingency=0.05, margin=0.12),
-    ("GM", 3.000,  5.000): dict(module=0.22, inverter=0.07, racking=0.18, racking_sat=0.24, bos=0.30, mechanical=0.17, electrical=0.20, civil=0.12, overhead=0.04, sga=0.14, contingency=0.03, margin=0.10),
-    ("GM", 5.000, 20.000): dict(module=0.22, inverter=0.07, racking=0.18, racking_sat=0.23, bos=0.30, mechanical=0.17, electrical=0.20, civil=0.12, overhead=0.04, sga=0.14, contingency=0.025, margin=0.10),
-    ("GM",20.000, 50.000): dict(module=0.22, inverter=0.05, racking=0.16, racking_sat=0.22, bos=0.28, mechanical=0.15, electrical=0.18, civil=0.10, overhead=0.04, sga=0.12, contingency=0.025, margin=0.10),
-    ("GM",50.000,9999.00): dict(module=0.22, inverter=0.04, racking=0.16, racking_sat=0.20, bos=0.25, mechanical=0.15, electrical=0.18, civil=0.08, overhead=0.04, sga=0.12, contingency=0.02,  margin=0.10),
-    # Rooftop
-    ("RT", 0.000,  0.500): dict(module=0.43, inverter=0.096, racking=0.35, racking_sat=None, bos=0.45, mechanical=0.25, electrical=0.45, civil=0.05, overhead=0.05, sga=0.14, contingency=0.10, margin=0.20),
-    ("RT", 0.500,  2.000): dict(module=0.43, inverter=0.096, racking=0.35, racking_sat=None, bos=0.44, mechanical=0.25, electrical=0.45, civil=0.05, overhead=0.05, sga=0.14, contingency=0.05, margin=0.15),
-    ("RT", 2.000,  4.000): dict(module=0.38, inverter=0.09,  racking=0.30, racking_sat=None, bos=0.40, mechanical=0.25, electrical=0.45, civil=0.05, overhead=0.05, sga=0.14, contingency=0.05, margin=0.15),
-    ("RT", 4.000,9999.00): dict(module=0.35, inverter=0.087, racking=0.28, racking_sat=None, bos=0.35, mechanical=0.22, electrical=0.40, civil=0.05, overhead=0.04, sga=0.12, contingency=0.03, margin=0.12),
-    # Carport
-    ("CP", 0.000,  0.500): dict(module=0.43, inverter=0.096, racking=0.45, racking_sat=None, bos=0.45, mechanical=0.30, electrical=0.45, civil=0.08, overhead=0.05, sga=0.14, contingency=0.10, margin=0.20),
-    ("CP", 0.500,  2.000): dict(module=0.40, inverter=0.096, racking=0.40, racking_sat=None, bos=0.44, mechanical=0.28, electrical=0.45, civil=0.08, overhead=0.05, sga=0.14, contingency=0.05, margin=0.15),
-    ("CP", 2.000,9999.00): dict(module=0.38, inverter=0.09,  racking=0.38, racking_sat=None, bos=0.40, mechanical=0.25, electrical=0.40, civil=0.08, overhead=0.04, sga=0.12, contingency=0.05, margin=0.12),
+    # ── Ground Mount Fixed Tilt ───────────────────────────────────────────────
+    # Sub-0.5 MWp: interpolated from 0.5-1 MWp data, higher overhead at small scale
+    ("GM", 0.000,  0.500): dict(module=0.38, inverter=0.096, racking=0.26, racking_sat=0.28, bos=0.31, mechanical=0.26, electrical=0.52, civil=0.12, overhead=0.12, sga=0.0, contingency=0.03, margin=0.10),
+    # 0.5–1 MWp: avg of VanVoorst(984kWp IL) + DS Containers(935kWp IL)
+    ("GM", 0.500,  1.000): dict(module=0.38, inverter=0.096, racking=0.25, racking_sat=0.27, bos=0.34, mechanical=0.25, electrical=0.47, civil=0.11, overhead=0.10, sga=0.0, contingency=0.03, margin=0.10),
+    # 1–3 MWp: avg of Unilock-Marengo(1.63MWp), Radiac(2.43MWp), Viscofan(2.36MWp)
+    ("GM", 1.000,  3.000): dict(module=0.38, inverter=0.096, racking=0.22, racking_sat=0.24, bos=0.37, mechanical=0.22, electrical=0.44, civil=0.12, overhead=0.08, sga=0.0, contingency=0.03, margin=0.10),
+    # 3–5 MWp: Dayton Airport (3MWp SAT, OH) + Mennie Machine (4.28MWp SAT, IL)
+    ("GM", 3.000,  5.000): dict(module=0.38, inverter=0.096, racking=0.21, racking_sat=0.20, bos=0.375, mechanical=0.20, electrical=0.40, civil=0.10, overhead=0.08, sga=0.0, contingency=0.03, margin=0.10),
+    # 5–20 MWp: extrapolated, scale efficiencies on racking + labour
+    ("GM", 5.000, 20.000): dict(module=0.36, inverter=0.090, racking=0.19, racking_sat=0.18, bos=0.35, mechanical=0.18, electrical=0.34, civil=0.09, overhead=0.07, sga=0.0, contingency=0.03, margin=0.10),
+    # 20–50 MWp: utility scale
+    ("GM",20.000, 50.000): dict(module=0.33, inverter=0.080, racking=0.17, racking_sat=0.16, bos=0.30, mechanical=0.15, electrical=0.28, civil=0.08, overhead=0.06, sga=0.0, contingency=0.025, margin=0.10),
+    # 50+ MWp: large utility scale
+    ("GM",50.000,9999.00): dict(module=0.30, inverter=0.070, racking=0.15, racking_sat=0.14, bos=0.27, mechanical=0.13, electrical=0.24, civil=0.07, overhead=0.05, sga=0.0, contingency=0.025, margin=0.10),
+    # ── Rooftop ───────────────────────────────────────────────────────────────
+    # Sub-0.5 MWp RT: interpolated
+    ("RT", 0.000,  0.500): dict(module=0.43, inverter=0.096, racking=0.40, racking_sat=None, bos=0.48, mechanical=0.27, electrical=0.52, civil=0.04, overhead=0.16, sga=0.0, contingency=0.03, margin=0.10),
+    # 0.5–1 MWp RT: Marengo (861kWp IL)
+    ("RT", 0.500,  1.000): dict(module=0.43, inverter=0.096, racking=0.35, racking_sat=None, bos=0.44, mechanical=0.25, electrical=0.45, civil=0.02, overhead=0.14, sga=0.0, contingency=0.03, margin=0.10),
+    # 1–2 MWp RT: interpolated between Marengo and Mattingly
+    ("RT", 1.000,  2.000): dict(module=0.43, inverter=0.096, racking=0.32, racking_sat=None, bos=0.42, mechanical=0.25, electrical=0.44, civil=0.02, overhead=0.10, sga=0.0, contingency=0.03, margin=0.10),
+    # 2–4 MWp RT: Mattingly Cold Storage (1.93MWp OH RT)
+    ("RT", 2.000,  4.000): dict(module=0.43, inverter=0.096, racking=0.30, racking_sat=None, bos=0.38, mechanical=0.25, electrical=0.42, civil=0.02, overhead=0.08, sga=0.0, contingency=0.03, margin=0.10),
+    # 4+ MWp RT
+    ("RT", 4.000,9999.00): dict(module=0.40, inverter=0.090, racking=0.27, racking_sat=None, bos=0.34, mechanical=0.24, electrical=0.38, civil=0.02, overhead=0.07, sga=0.0, contingency=0.03, margin=0.10),
+    # ── Carport ───────────────────────────────────────────────────────────────
+    # No historical data — estimated as RT + canopy structure premium
+    ("CP", 0.000,  0.500): dict(module=0.43, inverter=0.096, racking=0.48, racking_sat=None, bos=0.50, mechanical=0.30, electrical=0.52, civil=0.06, overhead=0.16, sga=0.0, contingency=0.03, margin=0.10),
+    ("CP", 0.500,  2.000): dict(module=0.43, inverter=0.096, racking=0.43, racking_sat=None, bos=0.46, mechanical=0.28, electrical=0.46, civil=0.05, overhead=0.12, sga=0.0, contingency=0.03, margin=0.10),
+    ("CP", 2.000,9999.00): dict(module=0.40, inverter=0.096, racking=0.38, racking_sat=None, bos=0.40, mechanical=0.26, electrical=0.42, civil=0.05, overhead=0.08, sga=0.0, contingency=0.03, margin=0.10),
 }
 
+# Engineering fixed USD by project size — calibrated from IL historical data ($22/kWp base)
+# RT costs ~3× more than GM due to structural analysis + PE stamps per roof section.
 _ENGINEERING_FALLBACK = [
-    (0,    1,    44000),
-    (1,    2,    56000),
-    (2,    3,    72000),
-    (3,    5,    85000),
-    (5,    7,   120000),
-    (7,   10,   155000),
-    (10,  20,   245000),
-    (20,  40,   330000),
-    (40,  60,   410000),
-    (60, 100,   465000),
-    (100, 9999, 520000),
+    # (size_min_mwp, size_max_mwp, total_usd)
+    (0,    1,    22000),   # IL historical: DS $22,440; VanVoorst $23,616
+    (1,    2,    35000),   # IL: Unilock-Marengo $35,860
+    (2,    3,    53000),   # IL: Radiac $53,460; Viscofan $52,008
+    (3,    5,    76000),   # OH: Dayton $66K (3MWp); IL: Mennie $94K (4.28MWp) → mid $76K
+    (5,    7,   110000),
+    (7,   10,   145000),
+    (10,  20,   210000),
+    (20,  40,   320000),
+    (40,  60,   420000),
+    (60, 100,   510000),
+    (100, 9999, 580000),
 ]
 
+# Permitting fixed USD — calibrated from CIR INT project files (actual AHJ fees).
+# These are Illinois/Midwest averages; location_intel overrides with actual local fees.
 _PERMITTING_FALLBACK = [
-    (0,    1,    45000),
-    (1,    2,    65000),
-    (2,    3,    99000),
-    (3,    5,   130000),
-    (5,    7,   160000),
-    (7,   10,   200000),
-    (10,  20,   280000),
-    (20, 9999,  400000),
+    # (size_min_mwp, size_max_mwp, total_usd)
+    (0,    1,    45000),   # IL actuals: ~$64K; OH: $29K → mid $45K
+    (1,    2,   100000),   # IL Unilock-Marengo: $99,855
+    (2,    3,   137000),   # IL: Radiac $137,945; Viscofan $136,493
+    (3,    5,   165000),   # OH Dayton: $150,485; IL Mennie: $178,645 → avg $164K
+    (5,    7,   210000),
+    (7,   10,   265000),
+    (10,  20,   380000),
+    (20, 9999,  520000),
 ]
 
 _BONDING_FALLBACK = [

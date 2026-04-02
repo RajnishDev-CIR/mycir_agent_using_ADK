@@ -1,0 +1,2254 @@
+======================================================================
+CHECKLIST FILE: 251217_Indicative Capex Check List_V0_SS_SV.xlsx
+======================================================================
+
+--- Sheet: DS Containers ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: DS Containers
+  R4C1: 2
+  R4C2: Location
+  R4C3: 1789 Hubbard Ave, Batavia, IL 60510
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 935 KWp
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 750 KW
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilit
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: FS-7500A-TR1 (First Solar)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: CPS SCH275KTL-DO/US-800-36 (Chint Power System)
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: Terrasmart, DCE or APA Titan
+  R10C4: Please use lowest cost option
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: Client To Confirm
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2027-03-01 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: Note that site is within a municipal district, the City of Batavia, which may have implications for size, setbacks, and permits
+  R14C4: Any assumptions or constraints
+
+--- Sheet: Mattingly Cold Storage-RT ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Mattingly Cold Storage
+  R3C5: MATTINGLY COLD STORAGE
+  R4C1: 2
+  R4C2: Location
+  R4C3: 120 State St, Zanesville, OH 43701, USA
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 1.93
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 1.5
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilit
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: 144HC M10 NTYP SLBifacial Module (585) (Heliene)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: Sunny Tripower_Core1 62-US-41 (SMA)
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: Panel Claw racking
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480 V
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Roof top
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2026-12-01 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: NA
+  R14C4: Any assumptions or constraints
+  R15C3: 2.28
+
+--- Sheet: VanVoorst-VanFab-GM ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: VanVoorst Lumber Company (VanFab)
+  R3C5: VANVOORST LUMBER COMPANY (VANFAB)
+  R4C1: 2
+  R4C2: Location
+  R4C3: 151 Center St, Union Hill, IL 60969
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 0.984
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 0.8
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilt
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: FS-7500A-TR1 (First Solar)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: CPS SCH200K-T-US-480 (ChintPower)
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: DCE
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480 V
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2027-06-01 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: NA
+  R14C4: Any assumptions or constraints
+  R15C3: 2.33
+
+--- Sheet: Radiac Abrasives-GM ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Radiac Abrasives
+  R3C5: RADIAC ABRASIVES
+  R4C1: 2
+  R4C2: Location
+  R4C3: 1015 S College St Salem, IL 62881
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 2.43
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 2
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilt
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: First Solar FS-7500A-TR1 Dec2023 (500 Wp)
+  R8C4: Include wattage, technology (Mono PERC, TOPCon, HJT, etc.)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: Chint Power Systems (CPS) SCH200K-T-US-480 (200kVA)
+  R9C4: Specify central or string type
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: DCE Racking
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480V
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R12C4: Select applicable type
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2027-06-30 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: NA
+  R14C4: Any assumptions or constraints
+  R15C3: 2.19
+
+--- Sheet: Unilock Marengo_GM  ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Unilock- Marengo
+  R3C5: UNILOCK- MARENGO
+  R4C1: 2
+  R4C2: Location
+  R4C3: 8302 IL-23, Marengo, IL 60152, USA
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 1.63
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 1.4
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilt
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: FS-7500A-TR1 (First Solar)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: CPS SCH200K-T-US-480 (ChintPower)
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: DCE
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480 V
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2026-12-01 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: Unilock Marengo is in ComEd territory
+  R14C4: Any assumptions or constraints
+  R15C3: 2.27
+
+--- Sheet: Mennie Machine-GM ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Mennie Machine
+  R3C5: MENNIE MACHINE
+  R4C1: 2
+  R4C2: Location
+  R4C3: 10549 Mennie Ln. Mark, IL 61340
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 4.28
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 3
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Single Axis Tracker
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: First Solar 500W and Heliene 635W bifacial
+  R8C4: Include wattage, technology (Mono PERC, TOPCon, HJT, etc.)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: ChintPower CPS-200kw
+  R9C4: Specify central or string type
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: DCE or Axial
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R12C4: Select applicable type
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2027-12-01 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: N/A
+  R14C4: Any assumptions or constraints
+  R15C3: 1.92
+
+--- Sheet: Dayton Airport-GM ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Dayton Airport
+  R3C5: DAYTON AIRPORT
+  R4C1: 2
+  R4C2: Location
+  R4C3: 3600 Terminal Dr, Vandalia, OH 45377
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 3
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 2.5
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Single Axis Tracker
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: FS-7500A-TR1 Dec2023
+  R8C4: Include wattage, technology (Mono PERC, TOPCon, HJT, etc.)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: SCH250K-T-US-600 250kVA
+  R9C4: Specify central or string type
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: ATI Duratrack HZ V3
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R12C4: Select applicable type
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2027-07-01 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: Proximity to airport- FAA requirements
+  R14C4: Any assumptions or constraints
+  R15C3: 2.15
+
+--- Sheet: Mansfield Industries-GM ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Mansfield Industries
+  R3C5: MANSFIELD INDUSTRIES
+  R4C1: 2
+  R4C2: Location
+  R4C3: 1776 Harrington Memorial Rd, Mansfield,OH 44903
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 0.72
+  R5C4: Client to confirm
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 0.6
+  R6C4: Client to confirm
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilt
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: FS-7500A-TR1 (First Solar)
+  R8C4: Client to confirm
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: CPS SCH200K-T-US-480 (ChintPower)
+  R9C4: Client to confirm
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: APA Titan
+  R10C4: Client to confirm
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480 V
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R12C4: Client to confirm
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2026-12-31 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: Client to provide
+  R14C4: Any assumptions or constraints
+  R15C3: 2.51
+
+--- Sheet: Viscofan-GM ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R2C5: VISCOFAN
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Viscofan
+  R4C1: 2
+  R4C2: Location
+  R4C3: 915 N Michigan Ave, Danville, IL 61834
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 2.364
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 2
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilit
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: First SolarFS-7500A-TR1 Dec2023 500 Wp
+  R8C4: Include wattage, technology (Mono PERC, TOPCon, HJT, etc.)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: ChintPower CPS-SCH275KTL-DO/US-800-36
+  R9C4: Specify central or string type
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: DCE Racking
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 1 mv connection at 4160v
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Ground Mount
+  R12C4: Select applicable type
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2027-12-31 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: Needs to be configured as zero-export (limiting) system
+  R14C4: Any assumptions or constraints
+  R15C2: Site Co-ordinates
+  R15C3: 40.14, -87.58
+
+--- Sheet: Marengo-RT ---
+  R1C1: Preliminary CAPEX Checklist – Solar PV Project
+  R2C1: #
+  R2C2: Parameter
+  R2C3: Description / Input Required
+  R2C4: Remarks / Notes
+  R2C5: MARENGO
+  R3C1: 1
+  R3C2: Project Name
+  R3C3: Marengo
+  R4C1: 2
+  R4C2: Location
+  R4C3: 110 Franks Rd, Marengo IL 60152
+  R5C1: 3
+  R5C2: DC Capacity (MWp)
+  R5C3: 0.861
+  R6C1: 4
+  R6C2: AC Capacity (MWac)
+  R6C3: 0.719
+  R7C1: 5
+  R7C2: Type of Structure
+  R7C3: Fixed Tilit
+  R7C4: Mention tilt angle or tracker type (e.g., single-axis)
+  R8C1: 6
+  R8C2: Module Make / Model
+  R8C3: Heliene Inc 144HC-585 M10 NTYP SL Bifacial 585 Wp
+  R8C4: Include wattage, technology (Mono PERC, TOPCon, HJT, etc.)
+  R9C1: 7
+  R9C2: Inverter Make / Model
+  R9C3: SolarEdgeSE66.6KUS/SE100KUS Unit (480V)
+  R9C4: Specify central or string type
+  R10C1: 8
+  R10C2: Structure Make / Supplier
+  R10C3: Ballasted Panel Claw Racking
+  R11C1: 9
+  R11C2: Point of Interconnection (POI) Voltage
+  R11C3: 480 V
+  R11C4: 11kV / 33kV / 66kV / 132kV etc.
+  R12C1: 10
+  R12C2: Type of Installation
+  R12C3: Roof Top
+  R12C4: Select applicable type
+  R13C1: 11
+  R13C2: Expected COD / Project Timeline
+  R13C3: 2026-12-31 00:00:00
+  R13C4: Tentative schedule for budgeting
+  R14C1: 12
+  R14C2: Additional Notes / Risks
+  R14C3: Client to provide
+  R14C4: Any assumptions or constraints
+
+
+======================================================================
+IGS OUTPUT FILES
+======================================================================
+Found 24 files
+
+
+------------------------------------------------------------
+FILE: 251112_CAPEX_River Valley Recycling_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['River Valley', 'Marengo', 'Viscofan', 'Sheet3']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     898,320  (label: 'Module Price')
+  inverter            : $     227,011  (label: 'Inverter Price')
+  racking             : $     520,080  (label: 'Structure Price')
+  bos                 : $     936,500  (label: 'BOS')
+  mechanical          : $     472,800  (label: 'Mechanical installation')
+  electrical          : $     709,200  (label: 'Electrical Installation')
+  civil               : $     236,400  (label: 'Civil')
+  engineering         : $      47,280  (label: 'Engineering')
+  permitting          : $      47,280  (label: 'Permitting')
+  overhead            : $     189,120  (label: 'Overhead')
+  margin              : $     428,399  (label: 'Margin')
+  contingency         : $     141,372  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : River Valley Recycling 2025 288 West South Tec Drive c, Kankakee, IL 60901, USA'  |  C6='Projwect Name : Marengo'  |  C9='Projwect Name : Viscofan'
+  R4: C2='Type of System -Rooftop'  |  C5='Type of System -Rooftop'  |  C8='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C5='DC'  |  C6=861  |  C7='KWp'  |  C8='DC'  |  C9=2364  |  C10='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'  |  C5='AC'  |  C6=500  |  C7='KW'  |  C8='AC'  |  C9=500  |  C10='KW'
+  R7: C2='Module Price'  |  C3=318965.39999999997  |  C4=0.43  |  C5='Module Price'  |  C6=370230  |  C7=0.43  |  C8='Module Price'  |  C9=898320  |  C10=0.38
+  R8: C2='Inverter Price'  |  C3=71232  |  C4=0.09602847205370865  |  C5='Inverter Price'  |  C6=82680.51443824315  |  C7=0.09602847205370865  |  C8='Inverter Price'  |  C9=227011.30793496725  |  C10=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=259623  |  C4=0.35  |  C5='Structure Price'  |  C6=301349.99999999994  |  C7=0.35  |  C8='Structure Price'  |  C9=520080.00000000006  |  C10=0.22
+  R10: C2='BOS'  |  C3=333801  |  C4=0.45  |  C5='BOS'  |  C6=378840  |  C7=0.44  |  C8='BOS'  |  C9=936500  |  C10=0.39615059221658205
+  R11: C2='Mechanical installation'  |  C3=185445  |  C4=0.25  |  C5='Mechanical installation'  |  C6=215250  |  C7=0.25  |  C8='Mechanical installation'  |  C9=472800  |  C10=0.2
+  R12: C2='Electrical Installation'  |  C3=333801  |  C4=0.45  |  C5='Electrical Installation'  |  C6=387450  |  C7=0.45  |  C8='Electrical Installation'  |  C9=709199.9999999999  |  C10=0.3
+  R13: C2='Civil'  |  C3=37089  |  C4=0.05  |  C5='Civil'  |  C6=17220  |  C7=0.02  |  C8='Civil'  |  C9=236400  |  C10=0.1
+  R14: C2='Engineering'  |  C3=66760.2  |  C4=0.09  |  C5='Engineering'  |  C6=77490  |  C7=0.09  |  C8='Engineering'  |  C9=47280  |  C10=0.02
+  R15: C2='Permitting'  |  C3=37089  |  C4=0.05  |  C5='Permitting'  |  C6=43050.00000000001  |  C7=0.05  |  C8='Permitting'  |  C9=47280  |  C10=0.02
+  R16: C2='Overhead'  |  C3=103849.20000000001  |  C4=0.14  |  C5='Overhead'  |  C6=120540  |  C7=0.14  |  C8='Overhead'  |  C9=189120  |  C10=0.08
+  R17: C2='Margin'  |  C3=251168.81999999998  |  C4=0.33860284720537087  |  C5='Margin'  |  C6=285510.0514438243  |  C7=0.33160284720537087  |  C8='Margin'  |  C9=428399.1307934967  |  C10=0.18121790642702906
+  R18: C2='Contingency Amount'  |  C3=99941.18099999998  |  C4=0.13473156596295396  |  C5='Contingency Amount'  |  C6=113980.52829410337  |  C7=0.13238156596295397  |  C8='Contingency Amount'  |  C9=141371.71316185393  |  C10=0.0598019091209196
+  R19: C2='Total $/Wp'  |  C3=2098764.801  |  C4=2.829362885222033  |  C5='Total $/Wp'  |  C6=2393591.0941761704  |  C7=2.780012885222033  |  C8='Total $/Wp'  |  C9=4853762.151890319  |  C10=2.0531988798182397
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.45/Wp for Heline as it will be domestic content. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and a 20% margin on installation.'
+  R30: C2='5% of contingency is considered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='POI location is at inverter level only'
+  R1: C3='Projwect Name : Marengo'
+  R4: C2='Type of System -Rooftop'
+  R5: C2='DC'  |  C3=861  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=370230  |  C4=0.43
+  R8: C2='Inverter Price'  |  C3=82680.51443824315  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=301349.99999999994  |  C4=0.35
+  R10: C2='BOS'  |  C3=378840  |  C4=0.44
+  R11: C2='Mechanical installation'  |  C3=215250  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=387450  |  C4=0.45
+  R13: C2='Civil'  |  C3=17220  |  C4=0.02
+  R14: C2='Engineering'  |  C3=77490  |  C4=0.09
+  R15: C2='Permitting'  |  C3=43050.00000000001  |  C4=0.05
+  R16: C2='Overhead'  |  C3=120540  |  C4=0.14
+  R17: C2='Margin'  |  C3=285510.0514438243  |  C4=0.33160284720537087
+  R18: C2='Contingency Amount'  |  C3=113980.52829410337  |  C4=0.13238156596295397
+  R19: C2='Total $/Wp'  |  C3=2393591.0941761704  |  C4=2.780012885222033
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.43/Wp for Heline as it will be domestic content. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and a 20% margin on installation.'
+  R30: C2='5% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='POI location is at inverter level only'
+  R1: C3='Projwect Name : Viscofan'
+  R4: C2='Type of System -Ground Mount'
+
+------------------------------------------------------------
+FILE: 251112_CAPEX_River Valley Recycling_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Sheet2', 'Sheet1', 'Sheet3']
+Project: 259623
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     318,965  (label: 'Module Price')
+  inverter            : $      71,232  (label: 'Inverter Price')
+  racking             : $     259,623  (label: 'Structure Price')
+  bos                 : $     333,801  (label: 'BOS')
+  mechanical          : $     185,445  (label: 'Mechanical installation')
+  electrical          : $     333,801  (label: 'Electrical Installation')
+  civil               : $      37,089  (label: 'Civil')
+  engineering         : $      66,760  (label: 'Engineering')
+  permitting          : $      37,089  (label: 'Permitting')
+  overhead            : $     103,849  (label: 'Overhead')
+  margin              : $     251,169  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Project Name : River Valley Recycling 2025 288 West South Tec Drive c, Kankakee, IL 60901, USA'
+  R4: C2='Type of System -Rooftop'
+  R5: C2='DC'  |  C3=741.78  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=318965.39999999997  |  C4=0.43
+  R8: C2='Inverter Price'  |  C3=71232  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=259623  |  C4=0.35
+  R10: C2='BOS'  |  C3=333801  |  C4=0.45
+  R11: C2='Mechanical installation'  |  C3=185445  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=333801  |  C4=0.45
+  R13: C2='Civil'  |  C3=37089  |  C4=0.05
+  R14: C2='Engineering'  |  C3=66760.2  |  C4=0.09
+  R15: C2='Permitting'  |  C3=37089  |  C4=0.05
+  R16: C2='Overhead'  |  C3=103849.20000000001  |  C4=0.14
+  R17: C2='Margin'  |  C3=251168.81999999998  |  C4=0.33860284720537087
+  R18: C2='Contingency Amount'  |  C3=99941.18099999998  |  C4=0.13473156596295396
+  R19: C2='Total $/Wp'  |  C3=2098764.801  |  C4=2.829362885222033
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.45/Wp for Heline as it will be domestic content. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and a 20% margin on installation.'
+  R30: C2='5% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.05  |  C3='RT'  |  C4=2.2  |  C5=0.43  |  C6=0.09602847205370865  |  C7=0.35  |  C8=0.45  |  C9=0.25  |  C10=0.45  |  C11=0.05  |  C12=0.09  |  C13=0.05  |  C14=0.14  |  C15=0.33860284720537087
+  R5: C2=0.05  |  C3='RT'  |  C4=0.0022  |  C5=0.22  |  C6=0.05  |  C7=0.3  |  C8=0.45  |  C9=0.25  |  C10=0.45  |  C11=0.05  |  C12=0.09  |  C13=0.05  |  C14=0.14  |  C15=0.30800000000000005
+  R7: C12=66760.2  |  C13=37089
+  R8: C2='Reference from Empower NCC project'  |  C7=259623  |  C12='#REF!'
+  R9: C2='Type of System -Rooftop'
+  R10: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10=556335
+  R11: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=500
+  R12: C2='Supply'  |  C3=983621.3999999999  |  C4=1.3260284720537086  |  C5=0.4686668079869326  |  C6='Rooftop'  |  C9=915680
+  R13: C2='Installation'  |  C3=556335  |  C4=0.75  |  C5=0.2650773444146398  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R14: C2='Engineering & permitting'  |  C3=103849.20000000001  |  C4=0.14  |  C5=0.04948110429073277  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R15: C2='SG&A'  |  C3=103849.20000000001  |  C4=0.14  |  C5=0.04948110429073277  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R16: C2='Margin'  |  C3=251168.81999999998  |  C4=0.33860284720537087  |  C5=0.11967459139791434  |  C7=634  |  C10=25  |  C11=15850
+  R17: C2='Contingency'  |  C3=99941.18099999998  |  C4=0.13473156596295396  |  C5=0.047619047619047616  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R18: C2='Total'  |  C3=2098764.801  |  C4=2.8293628852220336  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R19: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R20: C2='Type of System -Rooftop'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R21: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C5='#DIV/0!'  |  C11=71232  |  C12=0.09602847205370865
+  R22: C2='AC'  |  C3=0  |  C4='KW'
+  R23: C2='Module Price'  |  C3=318965.39999999997  |  C4=0.43  |  C5=8.6  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R24: C2='Inverter Price'  |  C3=71232  |  C4=0.09602847205370865  |  C5=1.920569441074173  |  C6='AC'  |  C7=0  |  C8=60  |  C9=0  |  C10=10000  |  C11=0  |  C12='Inverter cost'
+  R25: C2='Structure Price'  |  C3=259623  |  C4=0.35  |  C5=6.999999999999999  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R26: C2='BOS'  |  C3=333801  |  C4=0.45  |  C5=9  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R27: C2='Mechanical installation'  |  C3=185445  |  C4=0.25  |  C5=5  |  C10=155  |  C11=0  |  C12='Shipping'
+  R28: C2='Electrical Installation'  |  C3=333801  |  C4=0.45  |  C5=9  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R29: C2='Civil'  |  C3=37089  |  C4=0.05  |  C10=90  |  C11=0  |  C12='Inverter roof mount leg'
+  R30: C2='Engineering'  |  C3=66760.2  |  C4=0.09  |  C7=634  |  C10=22  |  C11=13948  |  C12='Optimiser'
+  R31: C2='Permitting'  |  C3=37089  |  C4=0.05  |  C11=16473  |  C12=0.022207393027582303
+  R32: C2='Overhead'  |  C3=103849.20000000001  |  C4=0.14
+  R33: C2='Margin'  |  C3=251168.81999999998  |  C4=0.33860284720537087
+
+------------------------------------------------------------
+FILE: 251119_CAPEX_Mansfield Industries_INT_V0.SS .xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 185445
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     273,600  (label: 'Module Price')
+  inverter            : $      69,140  (label: 'Inverter Price')
+  racking             : $     180,000  (label: 'Structure Price')
+  bos                 : $     216,000  (label: 'BOS')
+  mechanical          : $     180,000  (label: 'Mechanical installation')
+  electrical          : $     396,000  (label: 'Electrical Installation')
+  civil               : $      72,000  (label: 'Civil')
+  engineering         : $      72,000  (label: 'Engineering')
+  permitting          : $      49,100  (label: 'Permitting')
+  overhead            : $     108,000  (label: 'Overhead')
+  margin              : $     159,554  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Project Name : Mansfield Industries'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=720  |  C4='KWp'
+  R6: C2='AC'  |  C3=600  |  C4='KW'
+  R7: C2='Module Price'  |  C3=273600  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=69140.49987867022  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=180000  |  C4=0.25
+  R10: C2='BOS'  |  C3=216000  |  C4=0.3
+  R11: C2='Mechanical installation'  |  C3=180000  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=396000.00000000006  |  C4=0.55
+  R13: C2='Civil'  |  C3=72000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=72000  |  C4=0.1
+  R15: C2='Permitting'  |  C3=28800  |  C4=0.04
+  R16: C2='Overhead'  |  C3=108000  |  C4=0.15
+  R17: C2='Margin'  |  C3=159554.04998786704  |  C4=0.22160284720537088
+  R18: C2='Contingency Amount'  |  C3=52652.83649599612  |  C4=0.07312893957777239
+  R19: C2='Total $/Wp'  |  C3=1807747.3863625336  |  C4=2.5107602588368523
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.25  |  C8=0.3  |  C9=0.25  |  C10=0.55  |  C11=0.1  |  C12=0.1  |  C13=0.04  |  C14=0.15  |  C15=0.22160284720537088
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=185445  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=1100
+  R11: C2='Supply'  |  C3=761087.4  |  C4=1.0260284720537087  |  C5=0.40865250612538845  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=667602  |  C4=0.9  |  C5=0.3584571632565742  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=103849.20000000001  |  C4=0.14  |  C5=0.05576000317324488  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=111267  |  C4=0.15  |  C5=0.05974286054276236  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=164380.56  |  C4=0.22160284720537088  |  C5=0.08826125330979699  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=54245.584800000004  |  C4=0.07312893957777239  |  C5=0.029126213592233007  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1862431.7448  |  C4=2.5107602588368523  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=720  |  C4='KWp'  |  C5=1.2  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=600  |  C4='KW'
+  R22: C2='Module Price'  |  C3=273600  |  C4=0.38  |  C5=3.8  |  C6='DC'  |  C7=1440  |  C8=500  |  C9=720
+  R23: C2='Inverter Price'  |  C3=69140.49987867022  |  C4=0.09602847205370865  |  C5=0.9602847205370865  |  C6='AC'  |  C7=3  |  C8=200  |  C9=600  |  C10=10000  |  C11=30000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=180000  |  C4=0.25  |  C5=2.5  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=216000  |  C4=0.3  |  C5=2.9999999999999996  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=180000  |  C4=0.25  |  C5=2.5  |  C10=155  |  C11=465  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=396000.00000000006  |  C4=0.55  |  C5=5.5  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=72000  |  C4=0.1  |  C10=90  |  C11=270  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=72000  |  C4=0.1  |  C7=720  |  C10=22  |  C11=15840  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=28800  |  C4=0.04  |  C11=49100  |  C12=0.06819444444444445
+  R31: C2='Overhead'  |  C3=108000  |  C4=0.15
+  R32: C2='Margin'  |  C3=159554.04998786704  |  C4=0.22160284720537088
+
+------------------------------------------------------------
+FILE: 251119_CAPEX_Marengo_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Sheet2']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     370,230  (label: 'Module Price')
+  inverter            : $      82,681  (label: 'Inverter Price')
+  racking             : $     301,350  (label: 'Structure Price')
+  bos                 : $     378,840  (label: 'BOS')
+  mechanical          : $     215,250  (label: 'Mechanical installation')
+  electrical          : $     387,450  (label: 'Electrical Installation')
+  civil               : $      17,220  (label: 'Civil')
+  engineering         : $      77,490  (label: 'Engineering')
+  permitting          : $      43,050  (label: 'Permitting')
+  overhead            : $     120,540  (label: 'Overhead')
+  margin              : $     285,510  (label: 'Margin')
+  contingency         : $     113,981  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Marengo'
+  R4: C2='Type of System -Rooftop'
+  R5: C2='DC'  |  C3=861  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=370230  |  C4=0.43
+  R8: C2='Inverter Price'  |  C3=82680.51443824315  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=301349.99999999994  |  C4=0.35
+  R10: C2='BOS'  |  C3=378840  |  C4=0.44
+  R11: C2='Mechanical installation'  |  C3=215250  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=387450  |  C4=0.45
+  R13: C2='Civil'  |  C3=17220  |  C4=0.02
+  R14: C2='Engineering'  |  C3=77490  |  C4=0.09
+  R15: C2='Permitting'  |  C3=43050.00000000001  |  C4=0.05
+  R16: C2='Overhead'  |  C3=120540  |  C4=0.14
+  R17: C2='Margin'  |  C3=285510.0514438243  |  C4=0.33160284720537087
+  R18: C2='Contingency Amount'  |  C3=113980.52829410337  |  C4=0.13238156596295397
+  R19: C2='Total $/Wp'  |  C3=2393591.0941761704  |  C4=2.780012885222033
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.43/Wp for Heline as it will be domestic content. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and a 20% margin on installation.'
+  R30: C2='5% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251119_CAPEX_Marengo_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Sheet2', 'Sheet1', 'Sheet3']
+Project: 259623
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     370,230  (label: 'Module Price')
+  inverter            : $      82,681  (label: 'Inverter Price')
+  racking             : $     301,350  (label: 'Structure Price')
+  bos                 : $     378,840  (label: 'BOS')
+  mechanical          : $     215,250  (label: 'Mechanical installation')
+  electrical          : $     387,450  (label: 'Electrical Installation')
+  civil               : $      17,220  (label: 'Civil')
+  engineering         : $      77,490  (label: 'Engineering')
+  permitting          : $      43,050  (label: 'Permitting')
+  overhead            : $     120,540  (label: 'Overhead')
+  margin              : $     285,510  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Project Name : Marengo'
+  R4: C2='Type of System -Rooftop'
+  R5: C2='DC'  |  C3=861  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=370230  |  C4=0.43
+  R8: C2='Inverter Price'  |  C3=82680.51443824315  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=301349.99999999994  |  C4=0.35
+  R10: C2='BOS'  |  C3=378840  |  C4=0.44
+  R11: C2='Mechanical installation'  |  C3=215250  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=387450  |  C4=0.45
+  R13: C2='Civil'  |  C3=17220  |  C4=0.02
+  R14: C2='Engineering'  |  C3=77490  |  C4=0.09
+  R15: C2='Permitting'  |  C3=43050.00000000001  |  C4=0.05
+  R16: C2='Overhead'  |  C3=120540  |  C4=0.14
+  R17: C2='Margin'  |  C3=285510.0514438243  |  C4=0.33160284720537087
+  R18: C2='Contingency Amount'  |  C3=113980.52829410337  |  C4=0.13238156596295397
+  R19: C2='Total $/Wp'  |  C3=2393591.0941761704  |  C4=2.780012885222033
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.43/Wp for Heline as it will be domestic content. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and a 20% margin on installation.'
+  R30: C2='5% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.05  |  C3='RT'  |  C4=2.2  |  C5=0.43  |  C6=0.09602847205370865  |  C7=0.35  |  C8=0.44  |  C9=0.25  |  C10=0.45  |  C11=0.02  |  C12=0.09  |  C13=0.05  |  C14=0.14  |  C15=0.33160284720537087
+  R5: C2=0.05  |  C3='RT'  |  C4=0.0022  |  C5=0.22  |  C6=0.05  |  C7=0.3  |  C8=0.45  |  C9=0.25  |  C10=0.45  |  C11=0.05  |  C12=0.09  |  C13=0.05  |  C14=0.14  |  C15=0.30800000000000005
+  R7: C12=66760.2  |  C13=37089
+  R8: C2='Reference from Empower NCC project'  |  C7=259623  |  C12='#REF!'
+  R9: C2='Type of System -Rooftop'
+  R10: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10=556335
+  R11: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=1219
+  R12: C2='Supply'  |  C3=976203.6  |  C4=1.3160284720537085  |  C5=0.47338934256364074  |  C6='Rooftop'  |  C9=915680
+  R13: C2='Installation'  |  C3=534081.6  |  C4=0.72  |  C5=0.25899160533656845  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R14: C2='Engineering & permitting'  |  C3=103849.20000000001  |  C4=0.14  |  C5=0.05035947881544388  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R15: C2='SG&A'  |  C3=103849.20000000001  |  C4=0.14  |  C5=0.05035947881544388  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R16: C2='Margin'  |  C3=245976.36  |  C4=0.33160284720537087  |  C5=0.11928104684985533  |  C7=634  |  C10=25  |  C11=15850
+  R17: C2='Contingency'  |  C3=98197.99799999999  |  C4=0.13238156596295397  |  C5=0.047619047619047616  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R18: C2='Total'  |  C3=2062157.9579999999  |  C4=2.7800128852220336  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R19: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R20: C2='Type of System -Rooftop'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R21: C2='DC'  |  C3=861  |  C4='KWp'  |  C5=1.1974965229485397  |  C11=71232  |  C12=0.09602847205370865
+  R22: C2='AC'  |  C3=719  |  C4='KW'
+  R23: C2='Module Price'  |  C3=370230  |  C4=0.43  |  C5=21.5  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R24: C2='Inverter Price'  |  C3=82680.51443824315  |  C4=0.09602847205370865  |  C5=4.801423602685433  |  C6='AC'  |  C7=0  |  C8=60  |  C9=0  |  C10=10000  |  C11=0  |  C12='Inverter cost'
+  R25: C2='Structure Price'  |  C3=301349.99999999994  |  C4=0.35  |  C5=17.5  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R26: C2='BOS'  |  C3=378840  |  C4=0.44  |  C5=22  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R27: C2='Mechanical installation'  |  C3=215250  |  C4=0.25  |  C5=12.5  |  C10=155  |  C11=0  |  C12='Shipping'
+  R28: C2='Electrical Installation'  |  C3=387450  |  C4=0.45  |  C5=22.5  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R29: C2='Civil'  |  C3=17220  |  C4=0.02  |  C10=90  |  C11=0  |  C12='Inverter roof mount leg'
+  R30: C2='Engineering'  |  C3=77490  |  C4=0.09  |  C7=634  |  C10=22  |  C11=13948  |  C12='Optimiser'
+  R31: C2='Permitting'  |  C3=43050.00000000001  |  C4=0.05  |  C11=16473  |  C12=0.019132404181184667
+  R32: C2='Overhead'  |  C3=120540  |  C4=0.14
+  R33: C2='Margin'  |  C3=285510.0514438243  |  C4=0.33160284720537087
+
+------------------------------------------------------------
+FILE: 251119_CAPEX_Radiac Abrasives_INT_V0.SS .xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 163191.6
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     923,400  (label: 'Module Price')
+  inverter            : $     233,349  (label: 'Inverter Price')
+  racking             : $     534,600  (label: 'Structure Price')
+  bos                 : $     961,250  (label: 'BOS')
+  mechanical          : $     486,000  (label: 'Mechanical installation')
+  electrical          : $     729,000  (label: 'Electrical Installation')
+  civil               : $     243,000  (label: 'Civil')
+  engineering         : $      53,460  (label: 'Engineering')
+  permitting          : $     137,945  (label: 'Permitting')
+  overhead            : $     194,400  (label: 'Overhead')
+  margin              : $     440,220  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Radiac Abrasives'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=2430  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=923400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=233349.18709051204  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=534600  |  C4=0.22
+  R10: C2='BOS'  |  C3=961250  |  C4=0.3955761316872428
+  R11: C2='Mechanical installation'  |  C3=486000  |  C4=0.2
+  R12: C2='Electrical Installation'  |  C3=729000  |  C4=0.3
+  R13: C2='Civil'  |  C3=243000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=48600  |  C4=0.02
+  R15: C2='Permitting'  |  C3=48600  |  C4=0.02
+  R16: C2='Overhead'  |  C3=194400  |  C4=0.08
+  R17: C2='Margin'  |  C3=440219.9187090512  |  C4=0.18116046037409517
+  R18: C2='Contingency Amount'  |  C3=145272.57317398692  |  C4=0.059782951923451406
+  R19: C2='Total $/Wp'  |  C3=4987691.67897355  |  C4=2.0525480160384983
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.22  |  C8=0.3955761316872428  |  C9=0.2  |  C10=0.3  |  C11=0.1  |  C12=0.02  |  C13=0.02  |  C14=0.08  |  C15=0.18116046037409517
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=163191.6  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=2500
+  R11: C2='Supply'  |  C3=809730.4629629629  |  C4=1.0916046037409515  |  C5=0.5318290218846101  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=445068  |  C4=0.6  |  C5=0.2923195926777999  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.01948797284518666  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.03897594569037332  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=134381.20629629632  |  C4=0.18116046037409517  |  C5=0.08826125330979702  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=44345.79807777778  |  C4=0.059782951923451406  |  C5=0.029126213592233014  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1522539.0673370368  |  C4=2.052548016038498  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=2430  |  C4='KWp'  |  C5=1.215  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=2000  |  C4='KW'
+  R22: C2='Module Price'  |  C3=923400  |  C4=0.38  |  C5=3.8  |  C6='DC'  |  C7=4860  |  C8=500  |  C9=2430
+  R23: C2='Inverter Price'  |  C3=233349.18709051204  |  C4=0.09602847205370865  |  C5=0.9602847205370865  |  C6='AC'  |  C7=8  |  C8=275  |  C9=2200  |  C10=10000  |  C11=80000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=534600  |  C4=0.22  |  C5=2.1999999999999997  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=961250  |  C4=0.3955761316872428  |  C5=3.955761316872428  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=486000  |  C4=0.2  |  C5=2  |  C10=155  |  C11=1240  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=729000  |  C4=0.3  |  C5=2.9999999999999996  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=243000  |  C4=0.1  |  C10=90  |  C11=720  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=48600  |  C4=0.02  |  C7=2430  |  C10=22  |  C11=53460  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=48600  |  C4=0.02  |  C11=137945  |  C12=0.056767489711934155
+  R31: C2='Overhead'  |  C3=194400  |  C4=0.08
+  R32: C2='Margin'  |  C3=440219.9187090512  |  C4=0.18116046037409517
+
+------------------------------------------------------------
+FILE: 251119_CAPEX_Viscofan_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary ']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     898,320  (label: 'Module Price')
+  inverter            : $     227,011  (label: 'Inverter Price')
+  racking             : $     520,080  (label: 'Structure Price')
+  bos                 : $     936,500  (label: 'BOS')
+  mechanical          : $     472,800  (label: 'Mechanical installation')
+  electrical          : $     709,200  (label: 'Electrical Installation')
+  civil               : $     236,400  (label: 'Civil')
+  engineering         : $      47,280  (label: 'Engineering')
+  permitting          : $      47,280  (label: 'Permitting')
+  overhead            : $     189,120  (label: 'Overhead')
+  margin              : $     428,399  (label: 'Margin')
+  contingency         : $     141,372  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Viscofan'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=2364  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=898320  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=227011.30793496725  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=520080.00000000006  |  C4=0.22
+  R10: C2='BOS'  |  C3=936500  |  C4=0.39615059221658205
+  R11: C2='Mechanical installation'  |  C3=472800  |  C4=0.2
+  R12: C2='Electrical Installation'  |  C3=709199.9999999999  |  C4=0.3
+  R13: C2='Civil'  |  C3=236400  |  C4=0.1
+  R14: C2='Engineering'  |  C3=47280  |  C4=0.02
+  R15: C2='Permitting'  |  C3=47280  |  C4=0.02
+  R16: C2='Overhead'  |  C3=189120  |  C4=0.08
+  R17: C2='Margin'  |  C3=428399.1307934967  |  C4=0.18121790642702906
+  R18: C2='Contingency Amount'  |  C3=141371.71316185393  |  C4=0.0598019091209196
+  R19: C2='Total $/Wp'  |  C3=4853762.151890319  |  C4=2.0531988798182397
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251119_CAPEX_Viscofan_INT_V0.SS - Copy.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 163191.6
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     898,320  (label: 'Module Price')
+  inverter            : $     227,011  (label: 'Inverter Price')
+  racking             : $     520,080  (label: 'Structure Price')
+  bos                 : $     936,500  (label: 'BOS')
+  mechanical          : $     472,800  (label: 'Mechanical installation')
+  electrical          : $     709,200  (label: 'Electrical Installation')
+  civil               : $     236,400  (label: 'Civil')
+  engineering         : $      52,008  (label: 'Engineering')
+  permitting          : $     136,493  (label: 'Permitting')
+  overhead            : $     189,120  (label: 'Overhead')
+  margin              : $     428,399  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Viscofan'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=2364  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=898320  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=227011.30793496725  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=520080.00000000006  |  C4=0.22
+  R10: C2='BOS'  |  C3=936500  |  C4=0.39615059221658205
+  R11: C2='Mechanical installation'  |  C3=472800  |  C4=0.2
+  R12: C2='Electrical Installation'  |  C3=709199.9999999999  |  C4=0.3
+  R13: C2='Civil'  |  C3=236400  |  C4=0.1
+  R14: C2='Engineering'  |  C3=47280  |  C4=0.02
+  R15: C2='Permitting'  |  C3=47280  |  C4=0.02
+  R16: C2='Overhead'  |  C3=189120  |  C4=0.08
+  R17: C2='Margin'  |  C3=428399.1307934967  |  C4=0.18121790642702906
+  R18: C2='Contingency Amount'  |  C3=141371.71316185393  |  C4=0.0598019091209196
+  R19: C2='Total $/Wp'  |  C3=4853762.151890319  |  C4=2.0531988798182397
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.22  |  C8=0.39615059221658205  |  C9=0.2  |  C10=0.3  |  C11=0.1  |  C12=0.02  |  C13=0.02  |  C14=0.08  |  C15=0.18121790642702906
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=163191.6  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=2500
+  R11: C2='Supply'  |  C3=810156.5862944162  |  C4=1.0921790642702907  |  C5=0.5319402202123626  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=445068  |  C4=0.6  |  C5=0.29222692740467265  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.019481795160311514  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.03896359032062303  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=134423.81862944164  |  C4=0.18121790642702906  |  C5=0.08826125330979698  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=44359.86014771574  |  C4=0.0598019091209196  |  C5=0.02912621359223301  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1523021.8650715735  |  C4=2.0531988798182397  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=2364  |  C4='KWp'  |  C5=1.182  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=2000  |  C4='KW'
+  R22: C2='Module Price'  |  C3=898320  |  C4=0.38  |  C5=3.8  |  C6='DC'  |  C7=4728  |  C8=500  |  C9=2364
+  R23: C2='Inverter Price'  |  C3=227011.30793496725  |  C4=0.09602847205370865  |  C5=0.9602847205370865  |  C6='AC'  |  C7=8  |  C8=275  |  C9=2200  |  C10=10000  |  C11=80000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=520080.00000000006  |  C4=0.22  |  C5=2.1999999999999997  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=936500  |  C4=0.39615059221658205  |  C5=3.9615059221658204  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=472800  |  C4=0.2  |  C5=2  |  C10=155  |  C11=1240  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=709199.9999999999  |  C4=0.3  |  C5=2.9999999999999996  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=236400  |  C4=0.1  |  C10=90  |  C11=720  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=47280  |  C4=0.02  |  C7=2364  |  C10=22  |  C11=52008  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=47280  |  C4=0.02  |  C11=136493  |  C12=0.057738155668358715
+  R31: C2='Overhead'  |  C3=189120  |  C4=0.08
+  R32: C2='Margin'  |  C3=428399.1307934967  |  C4=0.18121790642702906
+
+------------------------------------------------------------
+FILE: 251120_CAPEX_Mansfield Industries_EXT_V0.SS .xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary ']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     273,600  (label: 'Module Price')
+  inverter            : $      69,140  (label: 'Inverter Price')
+  racking             : $     180,000  (label: 'Structure Price')
+  bos                 : $     216,000  (label: 'BOS')
+  mechanical          : $     180,000  (label: 'Mechanical installation')
+  electrical          : $     396,000  (label: 'Electrical Installation')
+  civil               : $      72,000  (label: 'Civil')
+  engineering         : $      72,000  (label: 'Engineering')
+  permitting          : $      28,800  (label: 'Permitting')
+  overhead            : $     108,000  (label: 'Overhead')
+  margin              : $     159,554  (label: 'Margin')
+  contingency         : $      52,653  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Mansfield Industries'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=720  |  C4='KWp'
+  R6: C2='AC'  |  C3=600  |  C4='KW'
+  R7: C2='Module Price'  |  C3=273600  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=69140.49987867022  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=180000  |  C4=0.25
+  R10: C2='BOS'  |  C3=216000  |  C4=0.3
+  R11: C2='Mechanical installation'  |  C3=180000  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=396000.00000000006  |  C4=0.55
+  R13: C2='Civil'  |  C3=72000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=72000  |  C4=0.1
+  R15: C2='Permitting'  |  C3=28800  |  C4=0.04
+  R16: C2='Overhead'  |  C3=108000  |  C4=0.15
+  R17: C2='Margin'  |  C3=159554.04998786704  |  C4=0.22160284720537088
+  R18: C2='Contingency Amount'  |  C3=52652.83649599612  |  C4=0.07312893957777239
+  R19: C2='Total $/Wp'  |  C3=1807747.3863625336  |  C4=2.5107602588368523
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251121_CAPEX_Dayton Airport_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary  (2)', 'Summary ', 'Sheet1', 'Sheet3']
+Project: 148356
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $   1,140,000  (label: 'Module Price')
+  inverter            : $     288,085  (label: 'Inverter Price')
+  racking             : $     600,000  (label: 'Structure Price')
+  bos                 : $   1,125,000  (label: 'BOS')
+  mechanical          : $     600,000  (label: 'Mechanical installation')
+  electrical          : $   1,290,000  (label: 'Electrical Installation')
+  civil               : $     300,000  (label: 'Civil')
+  engineering         : $      66,000  (label: 'Engineering')
+  permitting          : $     150,485  (label: 'Permitting')
+  overhead            : $     240,000  (label: 'Overhead')
+  margin              : $     570,309  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Dayton Airport'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=3000  |  C4='KWp'
+  R6: C2='AC'  |  C3=2500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=1140000  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=288085.416161126  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=600000  |  C4=0.2
+  R10: C2='BOS'  |  C3=1125000  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=600000  |  C4=0.2
+  R12: C2='Electrical Installation'  |  C3=1290000  |  C4=0.43
+  R13: C2='Civil'  |  C3=300000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=60000  |  C4=0.02
+  R15: C2='Permitting'  |  C3=60000  |  C4=0.02
+  R16: C2='Overhead'  |  C3=240000  |  C4=0.08
+  R17: C2='Margin'  |  C3=570308.5416161126  |  C4=0.19010284720537088
+  R18: C2='Contingency Amount'  |  C3=188201.81873331717  |  C4=0.06273393957777239
+  R19: C2='Total $/Wp'  |  C3=6461595.776510555  |  C4=2.1538652588368516
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R34: C2='Cost related to FAA requirements is not considered since we don’t have much clarity at this stage.'
+  R1: C3='Projwect Name : Dayton Airport'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=3000  |  C4='KWp'
+  R6: C2='AC'  |  C3=2500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=1140000  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=288085.416161126  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=600000  |  C4=0.2
+  R10: C2='BOS'  |  C3=1125000  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=600000  |  C4=0.2
+  R12: C2='Electrical Installation'  |  C3=1290000  |  C4=0.43
+  R13: C2='Civil'  |  C3=300000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=60000  |  C4=0.02
+  R15: C2='Permitting'  |  C3=60000  |  C4=0.02
+  R16: C2='Overhead'  |  C3=240000  |  C4=0.08
+  R17: C2='Margin'  |  C3=570308.5416161126  |  C4=0.19010284720537088
+  R18: C2='Contingency Amount'  |  C3=188201.81873331717  |  C4=0.06273393957777239
+  R19: C2='Total $/Wp'  |  C3=6461595.776510555  |  C4=2.1538652588368516
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+
+------------------------------------------------------------
+FILE: 251121_CAPEX_Dayton Airport_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 148356
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $   1,140,000  (label: 'Module Price')
+  inverter            : $     288,085  (label: 'Inverter Price')
+  racking             : $     600,000  (label: 'Structure Price')
+  bos                 : $   1,125,000  (label: 'BOS')
+  mechanical          : $     600,000  (label: 'Mechanical installation')
+  electrical          : $   1,290,000  (label: 'Electrical Installation')
+  civil               : $     300,000  (label: 'Civil')
+  engineering         : $      66,000  (label: 'Engineering')
+  permitting          : $     150,485  (label: 'Permitting')
+  overhead            : $     240,000  (label: 'Overhead')
+  margin              : $     570,309  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Dayton Airport'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=3000  |  C4='KWp'
+  R6: C2='AC'  |  C3=2500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=1140000  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=288085.416161126  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=600000  |  C4=0.2
+  R10: C2='BOS'  |  C3=1125000  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=600000  |  C4=0.2
+  R12: C2='Electrical Installation'  |  C3=1290000  |  C4=0.43
+  R13: C2='Civil'  |  C3=300000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=60000  |  C4=0.02
+  R15: C2='Permitting'  |  C3=60000  |  C4=0.02
+  R16: C2='Overhead'  |  C3=240000  |  C4=0.08
+  R17: C2='Margin'  |  C3=570308.5416161126  |  C4=0.19010284720537088
+  R18: C2='Contingency Amount'  |  C3=188201.81873331717  |  C4=0.06273393957777239
+  R19: C2='Total $/Wp'  |  C3=6461595.776510555  |  C4=2.1538652588368516
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.2  |  C8=0.375  |  C9=0.2  |  C10=0.43  |  C11=0.1  |  C12=0.02  |  C13=0.02  |  C14=0.08  |  C15=0.19010284720537088
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=148356  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=3000
+  R11: C2='Supply'  |  C3=779631.9  |  C4=1.0510284720537086  |  C5=0.4879731764749731  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=541499.3999999999  |  C4=0.73  |  C5=0.33892556509975036  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.018571263841082212  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.037142527682164424  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=141014.49  |  C4=0.19010284720537088  |  C5=0.08826125330979702  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=46534.78170000001  |  C4=0.06273393957777239  |  C5=0.029126213592233014  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1597694.1716999996  |  C4=2.1538652588368516  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=3000  |  C4='KWp'  |  C5=1.2  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=2500  |  C4='KW'
+  R22: C2='Module Price'  |  C3=1140000  |  C4=0.38  |  C5=3.8  |  C6='DC'  |  C7=6000  |  C8=500  |  C9=3000
+  R23: C2='Inverter Price'  |  C3=288085.416161126  |  C4=0.09602847205370865  |  C5=0.9602847205370865  |  C6='AC'  |  C7=8  |  C8=275  |  C9=2200  |  C10=10000  |  C11=80000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=600000  |  C4=0.2  |  C5=2  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=1125000  |  C4=0.375  |  C5=3.75  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=600000  |  C4=0.2  |  C5=2  |  C10=155  |  C11=1240  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=1290000  |  C4=0.43  |  C5=4.3  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=300000  |  C4=0.1  |  C10=90  |  C11=720  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=60000  |  C4=0.02  |  C7=3000  |  C10=22  |  C11=66000  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=60000  |  C4=0.02  |  C11=150485  |  C12=0.05016166666666667
+  R31: C2='Overhead'  |  C3=240000  |  C4=0.08
+  R32: C2='Margin'  |  C3=570308.5416161126  |  C4=0.19010284720537088
+
+------------------------------------------------------------
+FILE: 251121_CAPEX_Mennie Machine_EXT_V0.SS .xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary ']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $   1,626,400  (label: 'Module Price')
+  inverter            : $     411,002  (label: 'Inverter Price')
+  racking             : $     770,400  (label: 'Structure Price')
+  bos                 : $   1,605,000  (label: 'BOS')
+  mechanical          : $     813,200  (label: 'Mechanical installation')
+  electrical          : $   1,070,000  (label: 'Electrical Installation')
+  civil               : $     428,000  (label: 'Civil')
+  engineering         : $      85,600  (label: 'Engineering')
+  permitting          : $      85,600  (label: 'Permitting')
+  overhead            : $     342,400  (label: 'Overhead')
+  margin              : $     723,760  (label: 'Margin')
+  contingency         : $     238,841  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Mennie Machine'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=4280  |  C4='KWp'
+  R6: C2='AC'  |  C3=3000  |  C4='KW'
+  R7: C2='Module Price'  |  C3=1626400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=411001.86038987304  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=770400  |  C4=0.18
+  R10: C2='BOS'  |  C3=1605000  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=813200  |  C4=0.19
+  R12: C2='Electrical Installation'  |  C3=1070000  |  C4=0.25
+  R13: C2='Civil'  |  C3=428000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=85600.00000000001  |  C4=0.02
+  R15: C2='Permitting'  |  C3=85600.00000000001  |  C4=0.02
+  R16: C2='Overhead'  |  C3=342400.00000000006  |  C4=0.08
+  R17: C2='Margin'  |  C3=723760.1860389874  |  C4=0.1691028472053709
+  R18: C2='Contingency Amount'  |  C3=238840.86139286583  |  C4=0.05580393957777239
+  R19: C2='Total $/Wp'  |  C3=8200202.907821727  |  C4=1.915935258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251121_CAPEX_Mennie Machine_INT_V0.SS .xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 133520.4
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $   1,626,400  (label: 'Module Price')
+  inverter            : $     411,002  (label: 'Inverter Price')
+  racking             : $     770,400  (label: 'Structure Price')
+  bos                 : $   1,605,000  (label: 'BOS')
+  mechanical          : $     813,200  (label: 'Mechanical installation')
+  electrical          : $   1,070,000  (label: 'Electrical Installation')
+  civil               : $     428,000  (label: 'Civil')
+  engineering         : $      94,160  (label: 'Engineering')
+  permitting          : $     178,645  (label: 'Permitting')
+  overhead            : $     342,400  (label: 'Overhead')
+  margin              : $     723,760  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Mennie Machine'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=4280  |  C4='KWp'
+  R6: C2='AC'  |  C3=3000  |  C4='KW'
+  R7: C2='Module Price'  |  C3=1626400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=411001.86038987304  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=770400  |  C4=0.18
+  R10: C2='BOS'  |  C3=1605000  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=813200  |  C4=0.19
+  R12: C2='Electrical Installation'  |  C3=1070000  |  C4=0.25
+  R13: C2='Civil'  |  C3=428000  |  C4=0.1
+  R14: C2='Engineering'  |  C3=85600.00000000001  |  C4=0.02
+  R15: C2='Permitting'  |  C3=85600.00000000001  |  C4=0.02
+  R16: C2='Overhead'  |  C3=342400.00000000006  |  C4=0.08
+  R17: C2='Margin'  |  C3=723760.1860389874  |  C4=0.1691028472053709
+  R18: C2='Contingency Amount'  |  C3=238840.86139286583  |  C4=0.05580393957777239
+  R19: C2='Total $/Wp'  |  C3=8200202.907821727  |  C4=1.915935258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.18  |  C8=0.375  |  C9=0.19  |  C10=0.25  |  C11=0.1  |  C12=0.02  |  C13=0.02  |  C14=0.08  |  C15=0.1691028472053709
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=133520.4  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=3500
+  R11: C2='Supply'  |  C3=764796.2999999999  |  C4=1.0310284720537086  |  C5=0.5381332523102254  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=400561.2  |  C4=0.54  |  C5=0.28184668428088194  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.020877532168954216  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.04175506433790843  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=125437.11000000002  |  C4=0.1691028472053709  |  C5=0.088261253309797  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=41394.2463  |  C4=0.05580393957777239  |  C5=0.02912621359223301  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1421202.4563  |  C4=1.915935258836852  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=4280  |  C4='KWp'  |  C5=1.4266666666666667  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=3000  |  C4='KW'
+  R22: C2='Module Price'  |  C3=1626400  |  C4=0.38  |  C5=3.8  |  C6='DC'  |  C7=8560  |  C8=500  |  C9=4280
+  R23: C2='Inverter Price'  |  C3=411001.86038987304  |  C4=0.09602847205370865  |  C5=0.9602847205370865  |  C6='AC'  |  C7=8  |  C8=275  |  C9=2200  |  C10=10000  |  C11=80000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=770400  |  C4=0.18  |  C5=1.7999999999999998  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=1605000  |  C4=0.375  |  C5=3.75  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=813200  |  C4=0.19  |  C5=1.9  |  C10=155  |  C11=1240  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=1070000  |  C4=0.25  |  C5=2.5  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=428000  |  C4=0.1  |  C10=90  |  C11=720  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=85600.00000000001  |  C4=0.02  |  C7=4280  |  C10=22  |  C11=94160  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=85600.00000000001  |  C4=0.02  |  C11=178645  |  C12=0.04173948598130841
+  R31: C2='Overhead'  |  C3=342400.00000000006  |  C4=0.08
+  R32: C2='Margin'  |  C3=723760.1860389874  |  C4=0.1691028472053709
+
+------------------------------------------------------------
+FILE: 251121_CAPEX_Unilock- Marengo_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary ']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     619,400  (label: 'Module Price')
+  inverter            : $     156,526  (label: 'Inverter Price')
+  racking             : $     358,600  (label: 'Structure Price')
+  bos                 : $     611,250  (label: 'BOS')
+  mechanical          : $     391,200  (label: 'Mechanical installation')
+  electrical          : $     733,500  (label: 'Electrical Installation')
+  civil               : $     195,600  (label: 'Civil')
+  engineering         : $      32,600  (label: 'Engineering')
+  permitting          : $      32,600  (label: 'Permitting')
+  overhead            : $     130,400  (label: 'Overhead')
+  margin              : $     326,168  (label: 'Margin')
+  contingency         : $     107,635  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Unilock- Marengo'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=1630  |  C4='KWp'
+  R6: C2='AC'  |  C3=1400  |  C4='KW'
+  R7: C2='Module Price'  |  C3=619400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=156526.4094475451  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=358600  |  C4=0.22
+  R10: C2='BOS'  |  C3=611250  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=391200  |  C4=0.24
+  R12: C2='Electrical Installation'  |  C3=733500  |  C4=0.45
+  R13: C2='Civil'  |  C3=195600  |  C4=0.12
+  R14: C2='Engineering'  |  C3=32600  |  C4=0.02
+  R15: C2='Permitting'  |  C3=32600  |  C4=0.02
+  R16: C2='Overhead'  |  C3=130400  |  C4=0.08
+  R17: C2='Margin'  |  C3=326167.64094475453  |  C4=0.20010284720537086
+  R18: C2='Contingency Amount'  |  C3=107635.321511769  |  C4=0.06603393957777239
+  R19: C2='Total $/Wp'  |  C3=3695479.371904069  |  C4=2.2671652588368523
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251121_CAPEX_Unilock- Marengo_INT_V0.SS - Copy.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 163191.6
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     619,400  (label: 'Module Price')
+  inverter            : $     156,526  (label: 'Inverter Price')
+  racking             : $     358,600  (label: 'Structure Price')
+  bos                 : $     611,250  (label: 'BOS')
+  mechanical          : $     391,200  (label: 'Mechanical installation')
+  electrical          : $     733,500  (label: 'Electrical Installation')
+  civil               : $     195,600  (label: 'Civil')
+  engineering         : $      35,860  (label: 'Engineering')
+  permitting          : $      99,855  (label: 'Permitting')
+  overhead            : $     130,400  (label: 'Overhead')
+  margin              : $     326,168  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Unilock- Marengo'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=1630  |  C4='KWp'
+  R6: C2='AC'  |  C3=1400  |  C4='KW'
+  R7: C2='Module Price'  |  C3=619400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=156526.4094475451  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=358600  |  C4=0.22
+  R10: C2='BOS'  |  C3=611250  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=391200  |  C4=0.24
+  R12: C2='Electrical Installation'  |  C3=733500  |  C4=0.45
+  R13: C2='Civil'  |  C3=195600  |  C4=0.12
+  R14: C2='Engineering'  |  C3=32600  |  C4=0.02
+  R15: C2='Permitting'  |  C3=32600  |  C4=0.02
+  R16: C2='Overhead'  |  C3=130400  |  C4=0.08
+  R17: C2='Margin'  |  C3=326167.64094475453  |  C4=0.20010284720537086
+  R18: C2='Contingency Amount'  |  C3=107635.321511769  |  C4=0.06603393957777239
+  R19: C2='Total $/Wp'  |  C3=3695479.371904069  |  C4=2.2671652588368523
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.22  |  C8=0.375  |  C9=0.24  |  C10=0.45  |  C11=0.12  |  C12=0.02  |  C13=0.02  |  C14=0.08  |  C15=0.20010284720537086
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=163191.6  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=1900
+  R11: C2='Supply'  |  C3=794467.5  |  C4=1.0710284720537087  |  C5=0.47240864682409156  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=600841.7999999999  |  C4=0.8099999999999999  |  C5=0.3572743525611198  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.017643177904252832  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.035286355808505664  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=148432.29  |  C4=0.20010284720537086  |  C5=0.08826125330979698  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=48982.655699999996  |  C4=0.06603393957777239  |  C5=0.029126213592233004  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1681737.8456999997  |  C4=2.2671652588368523  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=1630  |  C4='KWp'  |  C5=1.1642857142857144  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=1400  |  C4='KW'
+  R22: C2='Module Price'  |  C3=619400  |  C4=0.38  |  C5=3.166666666666667  |  C6='DC'  |  C7=3260  |  C8=500  |  C9=1630
+  R23: C2='Inverter Price'  |  C3=156526.4094475451  |  C4=0.09602847205370865  |  C5=0.8002372671142388  |  C6='AC'  |  C7=6  |  C8=275  |  C9=1650  |  C10=10000  |  C11=60000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=358600  |  C4=0.22  |  C5=1.8333333333333335  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=611250  |  C4=0.375  |  C5=3.125  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=391200  |  C4=0.24  |  C5=2  |  C10=155  |  C11=930  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=733500  |  C4=0.45  |  C5=3.7500000000000004  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=195600  |  C4=0.12  |  C10=90  |  C11=540  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=32600  |  C4=0.02  |  C7=1630  |  C10=22  |  C11=35860  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=32600  |  C4=0.02  |  C11=99855  |  C12=0.06126073619631901
+  R31: C2='Overhead'  |  C3=130400  |  C4=0.08
+  R32: C2='Margin'  |  C3=326167.64094475453  |  C4=0.20010284720537086
+
+------------------------------------------------------------
+FILE: 251121_CAPEX_Unilock- Marengo_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 163191.6
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     619,400  (label: 'Module Price')
+  inverter            : $     156,526  (label: 'Inverter Price')
+  racking             : $     358,600  (label: 'Structure Price')
+  bos                 : $     611,250  (label: 'BOS')
+  mechanical          : $     391,200  (label: 'Mechanical installation')
+  electrical          : $     733,500  (label: 'Electrical Installation')
+  civil               : $     195,600  (label: 'Civil')
+  engineering         : $      35,860  (label: 'Engineering')
+  permitting          : $      99,855  (label: 'Permitting')
+  overhead            : $     130,400  (label: 'Overhead')
+  margin              : $     326,168  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Unilock- Marengo'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=1630  |  C4='KWp'
+  R6: C2='AC'  |  C3=1400  |  C4='KW'
+  R7: C2='Module Price'  |  C3=619400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=156526.4094475451  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=358600  |  C4=0.22
+  R10: C2='BOS'  |  C3=611250  |  C4=0.375
+  R11: C2='Mechanical installation'  |  C3=391200  |  C4=0.24
+  R12: C2='Electrical Installation'  |  C3=733500  |  C4=0.45
+  R13: C2='Civil'  |  C3=195600  |  C4=0.12
+  R14: C2='Engineering'  |  C3=32600  |  C4=0.02
+  R15: C2='Permitting'  |  C3=32600  |  C4=0.02
+  R16: C2='Overhead'  |  C3=130400  |  C4=0.08
+  R17: C2='Margin'  |  C3=326167.64094475453  |  C4=0.20010284720537086
+  R18: C2='Contingency Amount'  |  C3=107635.321511769  |  C4=0.06603393957777239
+  R19: C2='Total $/Wp'  |  C3=3695479.371904069  |  C4=2.2671652588368523
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.22  |  C8=0.375  |  C9=0.24  |  C10=0.45  |  C11=0.12  |  C12=0.02  |  C13=0.02  |  C14=0.08  |  C15=0.20010284720537086
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=163191.6  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=1900
+  R11: C2='Supply'  |  C3=794467.5  |  C4=1.0710284720537087  |  C5=0.47240864682409156  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=600841.7999999999  |  C4=0.8099999999999999  |  C5=0.3572743525611198  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.017643177904252832  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.035286355808505664  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=148432.29  |  C4=0.20010284720537086  |  C5=0.08826125330979698  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=48982.655699999996  |  C4=0.06603393957777239  |  C5=0.029126213592233004  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1681737.8456999997  |  C4=2.2671652588368523  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=1630  |  C4='KWp'  |  C5=1.1642857142857144  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=1400  |  C4='KW'
+  R22: C2='Module Price'  |  C3=619400  |  C4=0.38  |  C5=3.166666666666667  |  C6='DC'  |  C7=3260  |  C8=500  |  C9=1630
+  R23: C2='Inverter Price'  |  C3=156526.4094475451  |  C4=0.09602847205370865  |  C5=0.8002372671142388  |  C6='AC'  |  C7=6  |  C8=275  |  C9=1650  |  C10=10000  |  C11=60000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=358600  |  C4=0.22  |  C5=1.8333333333333335  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=611250  |  C4=0.375  |  C5=3.125  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=391200  |  C4=0.24  |  C5=2  |  C10=155  |  C11=930  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=733500  |  C4=0.45  |  C5=3.7500000000000004  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=195600  |  C4=0.12  |  C10=90  |  C11=540  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=32600  |  C4=0.02  |  C7=1630  |  C10=22  |  C11=35860  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=32600  |  C4=0.02  |  C11=99855  |  C12=0.06126073619631901
+  R31: C2='Overhead'  |  C3=130400  |  C4=0.08
+  R32: C2='Margin'  |  C3=326167.64094475453  |  C4=0.20010284720537086
+
+------------------------------------------------------------
+FILE: 251124_CAPEX_Mattingly Cold Storage_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Sheet2']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     829,900  (label: 'Module Price')
+  inverter            : $     185,335  (label: 'Inverter Price')
+  racking             : $     579,000  (label: 'Structure Price')
+  bos                 : $     656,200  (label: 'BOS')
+  mechanical          : $     482,500  (label: 'Mechanical installation')
+  electrical          : $     810,600  (label: 'Electrical Installation')
+  civil               : $      38,600  (label: 'Civil')
+  engineering         : $      19,300  (label: 'Engineering')
+  permitting          : $      57,900  (label: 'Permitting')
+  overhead            : $     154,400  (label: 'Overhead')
+  margin              : $     381,373  (label: 'Margin')
+  contingency         : $     209,755  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Mattingly Cold Storage'
+  R4: C2='Type of System -Rooftop'
+  R5: C2='DC'  |  C3=1930  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=829900  |  C4=0.43
+  R8: C2='Inverter Price'  |  C3=185334.9510636577  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=579000  |  C4=0.3
+  R10: C2='BOS'  |  C3=656200  |  C4=0.34
+  R11: C2='Mechanical installation'  |  C3=482500  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=810600  |  C4=0.42
+  R13: C2='Civil'  |  C3=38600  |  C4=0.02
+  R14: C2='Engineering'  |  C3=19300  |  C4=0.01
+  R15: C2='Permitting'  |  C3=57900  |  C4=0.03
+  R16: C2='Overhead'  |  C3=154400  |  C4=0.08
+  R17: C2='Margin'  |  C3=381373.49510636576  |  C4=0.19760284720537086
+  R18: C2='Contingency Amount'  |  C3=209755.42230850118  |  C4=0.10868156596295397
+  R19: C2='Total $/Wp'  |  C3=4404863.8684785245  |  C4=2.2823128852220336
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.43/Wp for Heline as it will be domestic content. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and a 20% margin on installation.'
+  R30: C2='5% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251124_CAPEX_Mattingly Cold Storage_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Sheet2', 'Sheet1', 'Sheet3']
+Project: 222534
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     829,900  (label: 'Module Price')
+  inverter            : $     185,335  (label: 'Inverter Price')
+  racking             : $     579,000  (label: 'Structure Price')
+  bos                 : $     656,200  (label: 'BOS')
+  mechanical          : $     482,500  (label: 'Mechanical installation')
+  electrical          : $     810,600  (label: 'Electrical Installation')
+  civil               : $      38,600  (label: 'Civil')
+  engineering         : $      19,300  (label: 'Engineering')
+  permitting          : $      57,900  (label: 'Permitting')
+  overhead            : $     154,400  (label: 'Overhead')
+  margin              : $     381,373  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Mattingly Cold Storage'
+  R4: C2='Type of System -Rooftop'
+  R5: C2='DC'  |  C3=1930  |  C4='KWp'
+  R6: C2='AC'  |  C3=500  |  C4='KW'
+  R7: C2='Module Price'  |  C3=829900  |  C4=0.43
+  R8: C2='Inverter Price'  |  C3=185334.9510636577  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=579000  |  C4=0.3
+  R10: C2='BOS'  |  C3=656200  |  C4=0.34
+  R11: C2='Mechanical installation'  |  C3=482500  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=810600  |  C4=0.42
+  R13: C2='Civil'  |  C3=38600  |  C4=0.02
+  R14: C2='Engineering'  |  C3=19300  |  C4=0.01
+  R15: C2='Permitting'  |  C3=57900  |  C4=0.03
+  R16: C2='Overhead'  |  C3=154400  |  C4=0.08
+  R17: C2='Margin'  |  C3=381373.49510636576  |  C4=0.19760284720537086
+  R18: C2='Contingency Amount'  |  C3=209755.42230850118  |  C4=0.10868156596295397
+  R19: C2='Total $/Wp'  |  C3=4404863.8684785245  |  C4=2.2823128852220336
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.43/Wp for Heline as it will be domestic content. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and a 20% margin on installation.'
+  R30: C2='5% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.05  |  C3='RT'  |  C4=2.2  |  C5=0.43  |  C6=0.09602847205370865  |  C7=0.3  |  C8=0.34  |  C9=0.25  |  C10=0.42  |  C11=0.02  |  C12=0.01  |  C13=0.03  |  C14=0.08  |  C15=0.19760284720537086
+  R5: C2=0.05  |  C3='RT'  |  C4=0.0022  |  C5=0.22  |  C6=0.05  |  C7=0.3  |  C8=0.45  |  C9=0.25  |  C10=0.45  |  C11=0.05  |  C12=0.09  |  C13=0.05  |  C14=0.14  |  C15=0.30800000000000005
+  R7: C12=66760.2  |  C13=37089
+  R8: C2='Reference from Empower NCC project'  |  C7=222534  |  C12='#REF!'
+  R9: C2='Type of System -Rooftop'
+  R10: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10=556335
+  R11: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=2000
+  R12: C2='Supply'  |  C3=864936.6  |  C4=1.1660284720537086  |  C5=0.5108977299316575  |  C6='Rooftop'  |  C9=915680
+  R13: C2='Installation'  |  C3=511828.19999999995  |  C4=0.69  |  C5=0.3023248935182144  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R14: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.017526080783664605  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R15: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.03505216156732921  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R16: C2='Margin'  |  C3=146577.83999999997  |  C4=0.19760284720537086  |  C5=0.08658008658008658  |  C7=634  |  C10=25  |  C11=15850
+  R17: C2='Contingency'  |  C3=80617.812  |  C4=0.10868156596295397  |  C5=0.047619047619047616  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R18: C2='Total'  |  C3=1692974.0519999997  |  C4=2.2823128852220336  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R19: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R20: C2='Type of System -Rooftop'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R21: C2='DC'  |  C3=1930  |  C4='KWp'  |  C5=1.2866666666666666  |  C11=71232  |  C12=0.09602847205370865
+  R22: C2='AC'  |  C3=1500  |  C4='KW'
+  R23: C2='Module Price'  |  C3=829900  |  C4=0.43  |  C5=21.5  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R24: C2='Inverter Price'  |  C3=185334.9510636577  |  C4=0.09602847205370865  |  C5=4.801423602685433  |  C6='AC'  |  C7=0  |  C8=60  |  C9=0  |  C10=10000  |  C11=0  |  C12='Inverter cost'
+  R25: C2='Structure Price'  |  C3=579000  |  C4=0.3  |  C5=15  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R26: C2='BOS'  |  C3=656200  |  C4=0.34  |  C5=17  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R27: C2='Mechanical installation'  |  C3=482500  |  C4=0.25  |  C5=12.5  |  C10=155  |  C11=0  |  C12='Shipping'
+  R28: C2='Electrical Installation'  |  C3=810600  |  C4=0.42  |  C5=21  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R29: C2='Civil'  |  C3=38600  |  C4=0.02  |  C10=90  |  C11=0  |  C12='Inverter roof mount leg'
+  R30: C2='Engineering'  |  C3=19300  |  C4=0.01  |  C7=634  |  C10=22  |  C11=13948  |  C12='Optimiser'
+  R31: C2='Permitting'  |  C3=57900  |  C4=0.03  |  C11=16473  |  C12=0.00853523316062176
+  R32: C2='Overhead'  |  C3=154400  |  C4=0.08
+  R33: C2='Margin'  |  C3=381373.49510636576  |  C4=0.19760284720537086
+
+------------------------------------------------------------
+FILE: 251124_CAPEX_Radiac Abrasives_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary ']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     923,400  (label: 'Module Price')
+  inverter            : $     233,349  (label: 'Inverter Price')
+  racking             : $     534,600  (label: 'Structure Price')
+  bos                 : $     899,100  (label: 'BOS')
+  mechanical          : $     534,600  (label: 'Mechanical installation')
+  electrical          : $   1,044,900  (label: 'Electrical Installation')
+  civil               : $     291,600  (label: 'Civil')
+  engineering         : $      48,600  (label: 'Engineering')
+  permitting          : $      48,600  (label: 'Permitting')
+  overhead            : $     194,400  (label: 'Overhead')
+  margin              : $     475,315  (label: 'Margin')
+  contingency         : $     156,854  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Radiac Abrasives'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=2430  |  C4='KWp'
+  R6: C2='AC'  |  C3=2000  |  C4='KW'
+  R7: C2='Module Price'  |  C3=923400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=233349.18709051204  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=534600  |  C4=0.22
+  R10: C2='BOS'  |  C3=899100  |  C4=0.37
+  R11: C2='Mechanical installation'  |  C3=534600  |  C4=0.22
+  R12: C2='Electrical Installation'  |  C3=1044900.0000000001  |  C4=0.43
+  R13: C2='Civil'  |  C3=291599.99999999994  |  C4=0.12
+  R14: C2='Engineering'  |  C3=48600  |  C4=0.02
+  R15: C2='Permitting'  |  C3=48600  |  C4=0.02
+  R16: C2='Overhead'  |  C3=194400  |  C4=0.08
+  R17: C2='Margin'  |  C3=475314.91870905133  |  C4=0.1956028472053709
+  R18: C2='Contingency Amount'  |  C3=156853.9231739869  |  C4=0.06454893957777239
+  R19: C2='Total $/Wp'  |  C3=5385318.028973551  |  C4=2.216180258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251124_CAPEX_Radiac Abrasives_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 163191.6
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     923,400  (label: 'Module Price')
+  inverter            : $     233,349  (label: 'Inverter Price')
+  racking             : $     534,600  (label: 'Structure Price')
+  bos                 : $     899,100  (label: 'BOS')
+  mechanical          : $     534,600  (label: 'Mechanical installation')
+  electrical          : $   1,044,900  (label: 'Electrical Installation')
+  civil               : $     291,600  (label: 'Civil')
+  engineering         : $      53,460  (label: 'Engineering')
+  permitting          : $     137,945  (label: 'Permitting')
+  overhead            : $     194,400  (label: 'Overhead')
+  margin              : $     475,315  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : Radiac Abrasives'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=2430  |  C4='KWp'
+  R6: C2='AC'  |  C3=2000  |  C4='KW'
+  R7: C2='Module Price'  |  C3=923400  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=233349.18709051204  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=534600  |  C4=0.22
+  R10: C2='BOS'  |  C3=899100  |  C4=0.37
+  R11: C2='Mechanical installation'  |  C3=534600  |  C4=0.22
+  R12: C2='Electrical Installation'  |  C3=1044900.0000000001  |  C4=0.43
+  R13: C2='Civil'  |  C3=291599.99999999994  |  C4=0.12
+  R14: C2='Engineering'  |  C3=48600  |  C4=0.02
+  R15: C2='Permitting'  |  C3=48600  |  C4=0.02
+  R16: C2='Overhead'  |  C3=194400  |  C4=0.08
+  R17: C2='Margin'  |  C3=475314.91870905133  |  C4=0.1956028472053709
+  R18: C2='Contingency Amount'  |  C3=156853.9231739869  |  C4=0.06454893957777239
+  R19: C2='Total $/Wp'  |  C3=5385318.028973551  |  C4=2.216180258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.22  |  C8=0.37  |  C9=0.22  |  C10=0.43  |  C11=0.12  |  C12=0.02  |  C13=0.02  |  C14=0.08  |  C15=0.1956028472053709
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=163191.6  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=2500
+  R11: C2='Supply'  |  C3=790758.6000000001  |  C4=1.0660284720537088  |  C5=0.48102065154808615  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=571170.6000000001  |  C4=0.77  |  C5=0.34744466156562986  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=29671.199999999997  |  C4=0.04  |  C5=0.01804907332808467  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=59342.399999999994  |  C4=0.08  |  C5=0.03609814665616934  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=145094.28000000003  |  C4=0.1956028472053709  |  C5=0.08826125330979702  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=47881.1124  |  C4=0.06454893957777239  |  C5=0.029126213592233007  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1643918.1924  |  C4=2.216180258836852  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=2430  |  C4='KWp'  |  C5=1.215  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=2000  |  C4='KW'
+  R22: C2='Module Price'  |  C3=923400  |  C4=0.38  |  C5=3.166666666666667  |  C6='DC'  |  C7=4860  |  C8=500  |  C9=2430
+  R23: C2='Inverter Price'  |  C3=233349.18709051204  |  C4=0.09602847205370865  |  C5=0.8002372671142388  |  C6='AC'  |  C7=8  |  C8=275  |  C9=2200  |  C10=10000  |  C11=80000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=534600  |  C4=0.22  |  C5=1.8333333333333335  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=899100  |  C4=0.37  |  C5=3.0833333333333335  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=534600  |  C4=0.22  |  C5=1.8333333333333335  |  C10=155  |  C11=1240  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=1044900.0000000001  |  C4=0.43  |  C5=3.5833333333333335  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=291599.99999999994  |  C4=0.12  |  C10=90  |  C11=720  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=48600  |  C4=0.02  |  C7=2430  |  C10=22  |  C11=53460  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=48600  |  C4=0.02  |  C11=137945  |  C12=0.056767489711934155
+  R31: C2='Overhead'  |  C3=194400  |  C4=0.08
+  R32: C2='Margin'  |  C3=475314.91870905133  |  C4=0.1956028472053709
+
+------------------------------------------------------------
+FILE: 251125_CAPEX_VanVoorst_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary ']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     373,920  (label: 'Module Price')
+  inverter            : $      94,492  (label: 'Inverter Price')
+  racking             : $     246,000  (label: 'Structure Price')
+  bos                 : $     344,400  (label: 'BOS')
+  mechanical          : $     246,000  (label: 'Mechanical installation')
+  electrical          : $     442,800  (label: 'Electrical Installation')
+  civil               : $     118,080  (label: 'Civil')
+  engineering         : $      23,616  (label: 'Engineering')
+  permitting          : $      39,360  (label: 'Permitting')
+  overhead            : $      98,400  (label: 'Overhead')
+  margin              : $     202,707  (label: 'Margin')
+  contingency         : $      66,893  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : VanVoorst Lumber Company (VanFab)'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=984  |  C4='KWp'
+  R6: C2='AC'  |  C3=800  |  C4='KW'
+  R7: C2='Module Price'  |  C3=373920  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=94492.01650084932  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=246000  |  C4=0.25
+  R10: C2='BOS'  |  C3=344400  |  C4=0.35
+  R11: C2='Mechanical installation'  |  C3=246000  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=442800  |  C4=0.45
+  R13: C2='Civil'  |  C3=118080  |  C4=0.12
+  R14: C2='Engineering'  |  C3=23616  |  C4=0.024
+  R15: C2='Permitting'  |  C3=39360  |  C4=0.04
+  R16: C2='Overhead'  |  C3=98400  |  C4=0.1
+  R17: C2='Margin'  |  C3=202706.80165008493  |  C4=0.20600284720537088
+  R18: C2='Contingency Amount'  |  C3=66893.24454452803  |  C4=0.06798093957777239
+  R19: C2='Total $/Wp'  |  C3=2296668.0626954623  |  C4=2.334012258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+
+------------------------------------------------------------
+FILE: 251125_CAPEX_VanVoorst_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 185445
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     373,920  (label: 'Module Price')
+  inverter            : $      94,492  (label: 'Inverter Price')
+  racking             : $     246,000  (label: 'Structure Price')
+  bos                 : $     344,400  (label: 'BOS')
+  mechanical          : $     246,000  (label: 'Mechanical installation')
+  electrical          : $     442,800  (label: 'Electrical Installation')
+  civil               : $     118,080  (label: 'Civil')
+  engineering         : $      23,616  (label: 'Engineering')
+  permitting          : $      65,153  (label: 'Permitting')
+  overhead            : $      98,400  (label: 'Overhead')
+  margin              : $     202,707  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : VanVoorst Lumber Company (VanFab)'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=984  |  C4='KWp'
+  R6: C2='AC'  |  C3=800  |  C4='KW'
+  R7: C2='Module Price'  |  C3=373920  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=94492.01650084932  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=246000  |  C4=0.25
+  R10: C2='BOS'  |  C3=344400  |  C4=0.35
+  R11: C2='Mechanical installation'  |  C3=246000  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=442800  |  C4=0.45
+  R13: C2='Civil'  |  C3=118080  |  C4=0.12
+  R14: C2='Engineering'  |  C3=23616  |  C4=0.024
+  R15: C2='Permitting'  |  C3=39360  |  C4=0.04
+  R16: C2='Overhead'  |  C3=98400  |  C4=0.1
+  R17: C2='Margin'  |  C3=202706.80165008493  |  C4=0.20600284720537088
+  R18: C2='Contingency Amount'  |  C3=66893.24454452803  |  C4=0.06798093957777239
+  R19: C2='Total $/Wp'  |  C3=2296668.0626954623  |  C4=2.334012258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='POI location is at inverter level only'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.25  |  C8=0.35  |  C9=0.25  |  C10=0.45  |  C11=0.12  |  C12=0.024  |  C13=0.04  |  C14=0.1  |  C15=0.20600284720537088
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=185445  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=1300
+  R11: C2='Supply'  |  C3=798176.3999999999  |  C4=1.0760284720537086  |  C5=0.4610209170837621  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=608259.6  |  C4=0.82  |  C5=0.35132634667850654  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=47473.92  |  C4=0.064  |  C5=0.027420592911493194  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=74178  |  C4=0.1  |  C5=0.04284467642420812  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=152808.79200000002  |  C4=0.20600284720537088  |  C5=0.088261253309797  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=50426.90136  |  C4=0.06798093957777239  |  C5=0.02912621359223301  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1731323.6133599998  |  C4=2.334012258836852  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=984  |  C4='KWp'  |  C5=1.23  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=800  |  C4='KW'
+  R22: C2='Module Price'  |  C3=373920  |  C4=0.38  |  C5=3.166666666666667  |  C6='DC'  |  C7=1968  |  C8=500  |  C9=984
+  R23: C2='Inverter Price'  |  C3=94492.01650084932  |  C4=0.09602847205370865  |  C5=0.8002372671142388  |  C6='AC'  |  C7=4  |  C8=200  |  C9=800  |  C10=10000  |  C11=40000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=246000  |  C4=0.25  |  C5=2.0833333333333335  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=344400  |  C4=0.35  |  C5=2.9166666666666665  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=246000  |  C4=0.25  |  C5=2.0833333333333335  |  C10=155  |  C11=620  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=442800  |  C4=0.45  |  C5=3.7500000000000004  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=118080  |  C4=0.12  |  C10=90  |  C11=360  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=23616  |  C4=0.024  |  C7=984  |  C10=22  |  C11=21648  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=39360  |  C4=0.04  |  C11=65153  |  C12=0.06621239837398375
+  R31: C2='Overhead'  |  C3=98400  |  C4=0.1
+  R32: C2='Margin'  |  C3=202706.80165008493  |  C4=0.20600284720537088
+
+------------------------------------------------------------
+FILE: 251219_CAPEX_DS Containers_EXT_V0.SS.xlsx
+Type: EXTERNAL (with margin)
+Sheets: ['Summary ']
+Project: None
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     355,300  (label: 'Module Price')
+  inverter            : $      89,787  (label: 'Inverter Price')
+  racking             : $     233,750  (label: 'Structure Price')
+  bos                 : $     336,600  (label: 'BOS')
+  mechanical          : $     233,750  (label: 'Mechanical installation')
+  electrical          : $     430,100  (label: 'Electrical Installation')
+  civil               : $     112,200  (label: 'Civil')
+  engineering         : $      22,440  (label: 'Engineering')
+  permitting          : $      37,400  (label: 'Permitting')
+  overhead            : $      93,500  (label: 'Overhead')
+  margin              : $     194,483  (label: 'Margin')
+  contingency         : $      64,179  (label: 'Contingency Amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : DS Containers'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=935  |  C4='KWp'
+  R6: C2='AC'  |  C3=750  |  C4='KW'
+  R7: C2='Module Price'  |  C3=355300  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=89786.62137021759  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=233750  |  C4=0.25
+  R10: C2='BOS'  |  C3=336599.99999999994  |  C4=0.36
+  R11: C2='Mechanical installation'  |  C3=233750  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=430100  |  C4=0.46
+  R13: C2='Civil'  |  C3=112200  |  C4=0.12
+  R14: C2='Engineering'  |  C3=22440  |  C4=0.024
+  R15: C2='Permitting'  |  C3=37400  |  C4=0.04
+  R16: C2='Overhead'  |  C3=93500  |  C4=0.1
+  R17: C2='Margin'  |  C3=194482.66213702178  |  C4=0.20800284720537088
+  R18: C2='Contingency Amount'  |  C3=64179.27850521718  |  C4=0.06864093957777238
+  R19: C2='Total $/Wp'  |  C3=2203488.5620124564  |  C4=2.356672258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is considered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associated with zero-export (limiting) system.'
+  R33: C2='In absence of POI location & Voltage, we are considering POI location is at inverter level only at 480V'
+
+------------------------------------------------------------
+FILE: 251219_CAPEX_DS Containers_INT_V0.SS.xlsx
+Type: INTERNAL (no margin)
+Sheets: ['Summary ', 'Sheet1', 'Sheet3']
+Project: 185445
+DC: None kWp
+Total USD: None
+Line items found:
+  module              : $     355,300  (label: 'Module Price')
+  inverter            : $      89,787  (label: 'Inverter Price')
+  racking             : $     233,750  (label: 'Structure Price')
+  bos                 : $     336,600  (label: 'BOS')
+  mechanical          : $     233,750  (label: 'Mechanical installation')
+  electrical          : $     430,100  (label: 'Electrical Installation')
+  civil               : $     112,200  (label: 'Civil')
+  engineering         : $      22,440  (label: 'Engineering')
+  permitting          : $      64,075  (label: 'Permitting')
+  overhead            : $      93,500  (label: 'Overhead')
+  margin              : $     194,483  (label: 'Margin')
+  contingency         : $     599,824  (label: 'Contingency Amount')
+  bonding             : $     924,311  (label: 'Bonding amount')
+
+RAW ROWS (first 60 non-empty):
+  R1: C3='Projwect Name : DS Containers'
+  R4: C2='Type of System -Ground Mount'
+  R5: C2='DC'  |  C3=935  |  C4='KWp'
+  R6: C2='AC'  |  C3=750  |  C4='KW'
+  R7: C2='Module Price'  |  C3=355300  |  C4=0.38
+  R8: C2='Inverter Price'  |  C3=89786.62137021759  |  C4=0.09602847205370865
+  R9: C2='Structure Price'  |  C3=233750  |  C4=0.25
+  R10: C2='BOS'  |  C3=336599.99999999994  |  C4=0.36
+  R11: C2='Mechanical installation'  |  C3=233750  |  C4=0.25
+  R12: C2='Electrical Installation'  |  C3=430100  |  C4=0.46
+  R13: C2='Civil'  |  C3=112200  |  C4=0.12
+  R14: C2='Engineering'  |  C3=22440  |  C4=0.024
+  R15: C2='Permitting'  |  C3=37400  |  C4=0.04
+  R16: C2='Overhead'  |  C3=93500  |  C4=0.1
+  R17: C2='Margin'  |  C3=194482.66213702178  |  C4=0.20800284720537088
+  R18: C2='Contingency Amount'  |  C3=64179.27850521718  |  C4=0.06864093957777238
+  R19: C2='Total $/Wp'  |  C3=2203488.5620124564  |  C4=2.356672258836852
+  R21: C2='Note-'
+  R22: C2='Currently, we have used a module price of $0.38/Wp for First Solar. Please let us know if this needs to be updated.'
+  R23: C2='Bonding, sales and use tax is not included in the offer but can be made available upon request.'
+  R24: C2='Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.'
+  R25: C2='Any cost related Utility application fees, impact studies, and utility upgrades are excluded.'
+  R26: C2='No cost for third Party External Study is considered'
+  R27: C2='The modification in the inverter location will lead to a revision of the CAPEX, as this alteration will impact the cable analysis.'
+  R28: C2='The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.'
+  R29: C2='Currently, we are considering a 10% margin on supply and installation.'
+  R30: C2='3% of contingency is consdiered in the above cost'
+  R31: C2='Includes one mobilization and one demobilization.'
+  R32: C2='We have considered the cost associsted with zero-export (limiting) system.'
+  R33: C2='In absence of POI location & Volatage, we are considering POI location is at inverter level only at 480V'
+  R2: C2='Contingency'  |  C3='Type of System'  |  C4='System Size'  |  C5='Module Price'  |  C6='Inverter Price'  |  C7='Structure Price'  |  C8='BOS'  |  C9='Mechanical installation'  |  C10='Electrical Installation'  |  C11='Civil'  |  C12='Engineering'  |  C13='Permitting'  |  C14='Overhead'  |  C15='Margin'
+  R3: C4=741.78
+  R4: C2=0.03  |  C3='GM'  |  C4=2.2  |  C5=0.38  |  C6=0.09602847205370865  |  C7=0.25  |  C8=0.36  |  C9=0.25  |  C10=0.46  |  C11=0.12  |  C12=0.024  |  C13=0.04  |  C14=0.1  |  C15=0.20800284720537088
+  R6: C12='#REF!'  |  C13='#REF!'
+  R7: C2='Reference from Empower NCC project'  |  C7=185445  |  C12='#REF!'
+  R8: C2='Type of System -Rooftop'
+  R9: C2='DC'  |  C3=741.78  |  C4='KWp'  |  C6='DC'  |  C10='#REF!'
+  R10: C2='AC'  |  C3=500  |  C4='KW'  |  C6='AC'  |  C7=1250
+  R11: C2='Supply'  |  C3=805594.2000000001  |  C4=1.0860284720537088  |  C5=0.46083135573112055  |  C6='Rooftop'  |  C9=915680
+  R12: C2='Installation'  |  C3=615677.3999999999  |  C4=0.83  |  C5=0.35219152637272133  |  C6='DC'  |  C7=1268  |  C8=585  |  C9=741.78
+  R13: C2='Engineering & permitting'  |  C3=47473.92  |  C4=0.064  |  C5=0.027156936973318273  |  C6='AC'  |  C7=5  |  C8=100  |  C9=500  |  C10=10000  |  C11=50000  |  C14=0.09602847205370865
+  R14: C2='SG&A'  |  C3=74178  |  C4=0.1  |  C5=0.0424327140208098  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0
+  R15: C2='Margin'  |  C3=154292.35199999998  |  C4=0.20800284720537088  |  C5=0.088261253309797  |  C7=634  |  C10=25  |  C11=15850
+  R16: C2='Contingency'  |  C3=50916.47616  |  C4=0.06864093957777238  |  C5=0.029126213592233007  |  C7=1  |  C10=857  |  C11=857  |  C12='FlexOM'
+  R17: C2='Total'  |  C3=1748132.34816  |  C4=2.356672258836852  |  C7=1  |  C10=2000  |  C11=2000  |  C12='Flex Portal'
+  R18: C7=1  |  C10=1750  |  C11=1750  |  C12='Onsite CPS field service ‘start-up’ commissioning support, per man day'
+  R19: C2='Type of System -Ground Mount'  |  C7=5  |  C10=155  |  C11=775  |  C12='Shipping'
+  R20: C2='DC'  |  C3=935  |  C4='KWp'  |  C5=1.2466666666666666  |  C11=71232  |  C12=0.09602847205370865
+  R21: C2='AC'  |  C3=750  |  C4='KW'
+  R22: C2='Module Price'  |  C3=355300  |  C4=0.38  |  C5=3.166666666666667  |  C6='DC'  |  C7=1870  |  C8=500  |  C9=935
+  R23: C2='Inverter Price'  |  C3=89786.62137021759  |  C4=0.09602847205370865  |  C5=0.8002372671142388  |  C6='AC'  |  C7=4  |  C8=200  |  C9=800  |  C10=10000  |  C11=40000  |  C12='Inverter cost'
+  R24: C2='Structure Price'  |  C3=233750  |  C4=0.25  |  C5=2.0833333333333335  |  C7=0  |  C8=36  |  C9=0  |  C10=3800  |  C11=0  |  C12='Inverter cost'
+  R25: C2='BOS'  |  C3=336599.99999999994  |  C4=0.36  |  C5=3  |  C10=775  |  C11=775  |  C12='Flex OM'
+  R26: C2='Mechanical installation'  |  C3=233750  |  C4=0.25  |  C5=2.0833333333333335  |  C10=155  |  C11=620  |  C12='Shipping'
+  R27: C2='Electrical Installation'  |  C3=430100  |  C4=0.46  |  C5=3.8333333333333335  |  C10=1750  |  C11=1750  |  C12='Onsite commissioning'
+  R28: C2='Civil'  |  C3=112200  |  C4=0.12  |  C10=90  |  C11=360  |  C12='Inverter roof mount leg'
+  R29: C2='Engineering'  |  C3=22440  |  C4=0.024  |  C7=935  |  C10=22  |  C11=20570  |  C12='Optimiser'
+  R30: C2='Permitting'  |  C3=37400  |  C4=0.04  |  C11=64075  |  C12=0.06852941176470588
+  R31: C2='Overhead'  |  C3=93500  |  C4=0.1
+  R32: C2='Margin'  |  C3=194482.66213702178  |  C4=0.20800284720537088

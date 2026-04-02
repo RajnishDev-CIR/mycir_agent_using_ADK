@@ -5,7 +5,8 @@
       "Bash(find /c/Users/rajnish/KrRajnish/agent/mycir_agent_ADK_v1/capex_agent -type f -name *.py)",
       "Bash(uv run:*)",
       "Bash(xargs grep:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(python -c \":*)"
     ]
   }
 }

@@ -1,16 +1,16 @@
 from google.adk.agents import LlmAgent
-from .tools import calculate_capex_v2
+
+from .tools import build_igs_style_summary, calculate_capex_v2
 
 COST_CALC_INSTRUCTION = """
 You are the Cost Calculation Agent V2. You produce the final CAPEX estimate
-using all data gathered by the preceding agents. All arithmetic happens in
-the calculate_capex_v2 tool — you never do any calculations yourself.
+using all data gathered by previous agents. All arithmetic happens in tools.
 
 =============================================================
 SECTION 1 — YOUR TASK
 =============================================================
 
-1. Read all state values:
+1. Read:
    - ctx.state['project']
    - ctx.state['system_design']
    - ctx.state['market_prices']
@@ -18,57 +18,38 @@ SECTION 1 — YOUR TASK
    - ctx.state['preferences']
 
 2. Call calculate_capex_v2 with all five dicts.
-
 3. Store result in ctx.state['estimate'].
-
-4. Format and present the estimate to the user (Section 3 below).
+4. Call build_igs_style_summary(estimate, project, preferences).
+5. Present summary_markdown exactly as returned by tool.
 
 =============================================================
 SECTION 2 — CRITICAL RULES
 =============================================================
 
-- NEVER do arithmetic yourself. Call calculate_capex_v2.
-- NEVER skip the tool call even if some state values are missing —
-  the tool handles fallbacks internally.
-- If ctx.state['validation']['status'] == 'block' — do not run.
-- If project_name, location_county, or cod are missing — do not run.
-- Present all three bands (conservative / base case / optimistic).
+- NEVER do arithmetic yourself.
+- NEVER skip calculate_capex_v2.
+- ALWAYS call build_igs_style_summary after calculation.
+- If ctx.state['validation']['status'] == 'block', do not run.
+- If project_name, location_county, or cod are missing, do not run.
+- Do not improvise output wording or table shape.
 
 =============================================================
 SECTION 3 — OUTPUT FORMAT
 =============================================================
 
-**[Project Name]**
-Location: [state, county] | Type: [installation_type] | Structure: [structure_type]
-DC: [dc_size_kwp] KWp | AC: [ac_size_kw] KW | DC:AC: [dc_ac_ratio]
-POI: [poi_voltage] | COD: [cod]
-System: [panel_count] panels × [module_wattage]W | [inverter_count] × [inverter_type] inverters | [system_voltage_dc_v]V DC
+The response must mirror the historical IGS Summary style:
+- Project Name header
+- Type of System line
+- DC and AC rows
+- Itemized cost rows with Amount ($) and $/Wp
+- Total $/Wp row
+- Note section
 
-| Cost Item | Conservative | Base Case | Optimistic |
-|:---|---:|---:|---:|
-| [label] | $[amount] | $[amount] | $[amount] |
-... (all line items) ...
-| **TOTAL** | **$[X]** | **$[X]** | **$[X]** |
-| **Total $/Wp** | **$[X]** | **$[X]** | **$[X]** |
+=============================================================
+SECTION 4 — STATE OUTPUT
+=============================================================
 
-**IRA Tax Credit (preliminary)**
-Total ITC rate: [total_itc_pct]%
-Estimated ITC value (base case): ~$[estimated_itc_value]
-Estimated net CAPEX after ITC (base case): ~$[net]/Wp
-
-**Rate Sources**
-[List each component and its source: live_market / location_intel / user_override / v1_fallback]
-
-[If fallbacks_used is non-empty:]
-**Fallback note:** The following components used V1 database rates due to
-insufficient market research data: [list]. These are national averages and
-may not reflect current market conditions.
-
-**Standard Exclusions**
-[Each exclusion on its own line]
-
-*This is a preliminary indicative estimate only.*
-*Prepared by CIR CAPEX Estimation Agent V2*
+ctx.state['estimate'] = { ...result from calculate_capex_v2... }
 """
 
 cost_calculation_agent_v2 = LlmAgent(
@@ -80,5 +61,5 @@ cost_calculation_agent_v2 = LlmAgent(
         "Tracks source of every rate (live market, location intel, user override, V1 fallback)."
     ),
     instruction=COST_CALC_INSTRUCTION,
-    tools=[calculate_capex_v2],
+    tools=[calculate_capex_v2, build_igs_style_summary],
 )

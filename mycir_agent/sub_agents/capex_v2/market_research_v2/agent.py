@@ -78,9 +78,9 @@ For each component, produce this structured record:
 {
   "component": "module" | "inverter" | "racking" | "bos" | "transformer",
   "spec": "e.g. 580W bifacial, Qcells",
-  "price_low_per_wp": float,
-  "price_mid_per_wp": float,
-  "price_high_per_wp": float,
+  "low": float,
+  "mid": float,
+  "high": float,
   "unit": "$/Wp" | "$/kW" | "$/unit",
   "source_count": int,
   "sources": ["url or publication name"],
@@ -89,6 +89,12 @@ For each component, produce this structured record:
   "notes": "any caveats (tariffs, FOB vs installed, etc.)",
   "fallback": false
 }
+
+IMPORTANT:
+- The price band keys MUST be "low", "mid", "high" exactly.
+- Use one of these units explicitly: "$/Wp", "$/kW", "$/unit".
+- For module/inverter/racking/bos, prefer "$/Wp".
+- For transformer, use "$/unit".
 
 Confidence rules:
   high   = 3+ sources, all < 60 days old
@@ -106,13 +112,16 @@ SECTION 4 — STATE OUTPUT
 Store to ctx.state['market_prices'] as a dict keyed by component name:
 
 ctx.state['market_prices'] = {
-    "module": { ...record... },
-    "inverter": { ...record... },
-    "racking": { ...record... },
-    "bos": { ...record... },
-    "transformer": { ...record... },   # only if transformer_required
-    "nrel_benchmark": { ...record... },
+    "module":        {"low": 0.34, "mid": 0.38, "high": 0.42, "confidence": "high", "fallback": false, ...},
+    "inverter":      {"low": 0.08, "mid": 0.10, "high": 0.12, "confidence": "medium", "fallback": false, ...},
+    "racking":       {"low": 0.20, "mid": 0.24, "high": 0.28, "confidence": "medium", "fallback": false, ...},
+    "bos":           {"low": 0.28, "mid": 0.32, "high": 0.36, "confidence": "medium", "fallback": false, ...},
+    "transformer":   {"low": 100000, "mid": 120000, "high": 145000, "unit": "$/unit", ...},  # only if needed
+    "nrel_benchmark": {...},
 }
+
+Write your output directly into ctx.state['market_prices'].
+Do not call any function tools in this agent.
 
 =============================================================
 SECTION 5 — CRITICAL RULES
@@ -124,7 +133,7 @@ SECTION 5 — CRITICAL RULES
 - Focus on sources published within the last 12 months.
 - Never guess prices. If you cannot find data, set fallback = true.
 - Tariff notes: note whether prices are pre- or post-US tariff.
-- Do not convert $/kW to $/Wp yourself — flag the unit and let Cost Calc handle it.
+- Keep units explicit ($/Wp, $/kW, or $/unit) so downstream tools can normalize.
 """
 
 market_research_v2_agent = LlmAgent(

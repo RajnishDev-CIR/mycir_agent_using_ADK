@@ -1,4 +1,12 @@
-def calculate_ira(project: dict, preferences: dict, system_design: dict) -> dict:
+from google.adk.tools import ToolContext
+
+
+def calculate_ira(
+    project: dict,
+    preferences: dict,
+    system_design: dict,
+    tool_context: ToolContext,
+) -> dict:
     """
     Calculates applicable IRA (Inflation Reduction Act) tax credit components
     for the project. All logic is deterministic — no LLM arithmetic.
@@ -84,12 +92,37 @@ def calculate_ira(project: dict, preferences: dict, system_design: dict) -> dict
     # ── Total ITC ─────────────────────────────────────────────────────────────
     total_itc_pct = base_itc_pct + domestic_content_adder + energy_community_adder
 
-    # ── Estimated ITC value (placeholder — needs gross CAPEX from Cost Calc) ─
-    # This is estimated using a rough $/Wp benchmark; Cost Calc will refine it
-    rough_gross_capex_per_wp = 1.80  # conservative mid-range placeholder
-    rough_gross_capex_usd = rough_gross_capex_per_wp * dc_mwp * 1_000_000
-    estimated_itc_usd = rough_gross_capex_usd * (total_itc_pct / 100)
-    estimated_net_per_wp = rough_gross_capex_per_wp * (1 - total_itc_pct / 100)
+    # ── Estimated ITC value ───────────────────────────────────────────────────
+    # Prefer actual base-case CAPEX from cost calculation when available.
+    estimate = tool_context.state.get("estimate")
+    base_case_total_usd = None
+    base_case_per_wp = None
+    if isinstance(estimate, dict):
+        base_case = estimate.get("base_case")
+        if isinstance(base_case, dict):
+            total_usd = base_case.get("total_usd")
+            per_wp = base_case.get("total_per_wp")
+            if isinstance(total_usd, (int, float)):
+                base_case_total_usd = float(total_usd)
+            if isinstance(per_wp, (int, float)):
+                base_case_per_wp = float(per_wp)
+
+    if base_case_total_usd is not None and base_case_per_wp is not None:
+        gross_capex_usd = base_case_total_usd
+        gross_capex_per_wp = base_case_per_wp
+        capex_source = "base_case_estimate"
+        capex_note = "ITC estimate uses calculated base-case CAPEX."
+    else:
+        # Fallback when estimate is not yet available.
+        gross_capex_per_wp = 1.80
+        gross_capex_usd = gross_capex_per_wp * dc_mwp * 1_000_000
+        capex_source = "rough_placeholder"
+        capex_note = (
+            "ITC estimate uses rough CAPEX placeholder. Recompute after final CAPEX."
+        )
+
+    estimated_itc_usd = gross_capex_usd * (total_itc_pct / 100)
+    estimated_net_per_wp = gross_capex_per_wp * (1 - total_itc_pct / 100)
 
     # ── State-specific notes ──────────────────────────────────────────────────
     state_note = ""
@@ -117,14 +150,16 @@ def calculate_ira(project: dict, preferences: dict, system_design: dict) -> dict
         "total_itc_pct": total_itc_pct,
         "prevailing_wage_confirmed": prevailing_wage,
         "domestic_content_confirmed": ira_domestic_content and feoc_compliance,
-        "estimated_gross_capex_usd": round(rough_gross_capex_usd),
+        "estimated_gross_capex_usd": round(gross_capex_usd),
         "estimated_itc_value_usd": round(estimated_itc_usd),
         "estimated_net_per_wp_after_itc": round(estimated_net_per_wp, 3),
+        "capex_basis": capex_source,
+        "capex_basis_note": capex_note,
         "notes": notes + adder_notes,
         "state_incentive_note": state_note,
         "disclaimer": (
-            "ITC estimate is preliminary and based on a rough CAPEX placeholder. "
-            "Actual ITC value will be calculated from final gross CAPEX. "
+            "ITC estimate is preliminary and policy-dependent. "
+            "Verify final eligibility and filing treatment with a qualified tax advisor. "
             "Consult a qualified tax advisor to confirm eligibility and amounts."
         ),
     }

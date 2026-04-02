@@ -25,6 +25,11 @@ from .pricing_db import (
 # FEOC compliance premium — mid-range estimate from Excel Ad Ons sheet
 FEOC_PREMIUM_PER_WP = 0.055   # $0.03–0.08/Wp range; 0.055 mid
 
+# Band variance for supply-chain components when using db_rates fallback.
+# Applies only to module, inverter, racking, bos — not to labour/fixed costs.
+# conservative (low band) = +10%; base_case (mid) = flat; optimistic (high) = -10%
+_BAND_VARIANCE = {"low": 1.10, "mid": 1.00, "high": 0.90}
+
 # Standard exclusions — consistent across V1 and V2
 STANDARD_EXCLUSIONS = [
     "Bonding and sales & use tax shown as separate indicative lines",
@@ -37,6 +42,133 @@ STANDARD_EXCLUSIONS = [
     "IRA tax credit value shown separately — not deducted from CAPEX",
     "All costs in USD; excludes import duties and tariffs unless noted",
 ]
+
+
+def _fmt_usd(value: float) -> str:
+    return f"{value:,.2f}"
+
+
+def _fmt_wp(value: float) -> str:
+    return f"{value:.2f}"
+
+
+def _system_label(installation_type: str) -> str:
+    mapping = {"GM": "Ground Mount", "RT": "Rooftop", "CP": "Carport"}
+    return mapping.get(installation_type, installation_type)
+
+
+def _line_index_by_label(line_items: list[dict]) -> dict[str, dict]:
+    return {str(item.get("label", "")).lower(): item for item in line_items}
+
+
+def build_igs_style_summary(
+    estimate: dict,
+    project: dict,
+    preferences: dict,
+) -> dict:
+    """
+    Build a deterministic IGS-style summary block using base-case estimate values.
+
+    Returns:
+        {
+          "summary_markdown": "<markdown text>",
+          "rows": [...],
+          "project_name": "...",
+        }
+    """
+    base_case = estimate.get("base_case", {}) if isinstance(estimate, dict) else {}
+    line_items = base_case.get("line_items", []) if isinstance(base_case, dict) else []
+    idx = _line_index_by_label(line_items)
+
+    def pick(*candidates: str) -> dict | None:
+        for key in candidates:
+            item = idx.get(key.lower())
+            if item:
+                return item
+        for candidate in candidates:
+            c = candidate.lower()
+            for lbl, itm in idx.items():
+                if lbl.startswith(c):
+                    return itm
+        return None
+
+    # Canonical rows to match the historical IGS "Summary" sheet look.
+    rows: list[tuple[str, float, float]] = []
+
+    def add_row(title: str, item: dict | None):
+        if not item:
+            return
+        rows.append(
+            (
+                title,
+                float(item.get("amount_usd", 0.0)),
+                float(item.get("rate_per_wp", 0.0)),
+            )
+        )
+
+    add_row("Module Price", pick("Module supply"))
+    add_row("Inverter Price", pick("Inverter supply (string)", "Inverter supply (central string)"))
+    add_row("Structure Price", pick("Racking / structure (fixed tilt)", "Racking / structure (SAT)"))
+    add_row("BOS", pick("Balance of system (BOS)"))
+    add_row("Mechanical installation", pick("Mechanical installation"))
+    add_row("Electrical Installation", pick("Electrical installation"))
+    add_row("Civil", pick("Civil works"))
+    add_row("Engineering", pick("Engineering"))
+    add_row("Permitting", pick("Permitting"))
+    add_row("Overhead", pick("Overhead"))
+    add_row("Margin", pick("Margin"))
+    add_row("Contingency Amount", pick("Contingency"))
+
+    total_usd = float(base_case.get("total_usd", 0.0))
+    total_wp = float(base_case.get("total_per_wp", 0.0))
+
+    project_name = estimate.get("project_name") or project.get("project_name") or "Project"
+    installation_type = str(estimate.get("installation_type") or project.get("installation_type") or "GM")
+    system_name = _system_label(installation_type)
+    dc_kwp = float(estimate.get("dc_size_kwp", 0.0))
+    ac_kw = float(estimate.get("ac_size_kw", 0.0))
+
+    module_pref = preferences.get("module_manufacturer") if isinstance(preferences, dict) else None
+    module_note = (
+        f"Currently, we have used a module price of ${rows[0][2]:.2f}/Wp for {module_pref}. "
+        "Please let us know if this needs to be updated."
+        if rows and module_pref
+        else ""
+    )
+
+    table_lines = [
+        f"**Project Name : {project_name}**",
+        "",
+        f"**Type of System - {system_name}**",
+        "",
+        "| Item | Amount ($) | $/Wp |",
+        "|:---|---:|---:|",
+        f"| DC | {dc_kwp:,.0f} KWp |  |",
+        f"| AC | {ac_kw:,.0f} KW |  |",
+    ]
+    for name, amount, per_wp in rows:
+        table_lines.append(f"| {name} | {_fmt_usd(amount)} | {_fmt_wp(per_wp)} |")
+    table_lines.append(f"| **Total $/Wp** | **{_fmt_usd(total_usd)}** | **{_fmt_wp(total_wp)}** |")
+
+    notes = []
+    if module_note:
+        notes.append(module_note)
+    notes.extend([
+        "Bonding, sales and use tax is not included in the offer but can be made available upon request.",
+        "Permitting costs will be determined based on actual requirements and are excluded from this cost estimate.",
+        "Any cost related Utility application fees, impact studies, and utility upgrades are excluded.",
+        "No cost for third Party External Study is considered.",
+        "The cost of stamping is not covered within the design set and will incur an additional charge of $500 per set.",
+        "Includes one mobilization and one demobilization.",
+        "POI location is at inverter level only.",
+    ])
+
+    summary_markdown = "\n".join(table_lines + ["", "**Note-**"] + [f"- {n}" for n in notes])
+    return {
+        "summary_markdown": summary_markdown,
+        "rows": rows,
+        "project_name": project_name,
+    }
 
 
 def _normalize_installation_type(value: str) -> str:
@@ -64,26 +196,61 @@ def _to_bool(value) -> bool:
     return False
 
 
+def _market_band_to_wp(record: dict, band: str) -> float | None:
+    """Convert market record band value to $/Wp for core components."""
+    raw = record.get(band)
+    if raw is None:
+        return None
+    try:
+        value = float(raw)
+    except (TypeError, ValueError):
+        return None
+    unit = str(record.get("unit", "$/Wp")).strip().lower()
+    if unit in ("$/wp", "usd/wp", "per wp", "wp"):
+        return value
+    if unit in ("$/kw", "usd/kw", "per kw", "kw"):
+        return value / 1000.0
+    # Unknown unit for supply-chain components: treat as unusable.
+    return None
+
+
 def _get_market_price(market_prices: dict, component: str, band: str,
                       fallback_rate: float, structure_type: str = None,
                       fallback_rates: dict = None) -> tuple[float, str]:
     """
     Returns (price_per_wp, source) from market research or DB/fallback rates.
     band: 'low' | 'mid' | 'high'
+
+    When live market data is unavailable, applies ±10% band variance to
+    supply-chain components so conservative/optimistic bands differ meaningfully:
+      conservative (low)  = db_rate × 1.10
+      base_case   (mid)   = db_rate × 1.00
+      optimistic  (high)  = db_rate × 0.90
     """
     record = market_prices.get(component, {})
     if record and not record.get("fallback", True) and record.get("confidence") in ("medium", "high"):
-        val = record.get(band)
-        if val and float(val) > 0:
-            return float(val), "live_market"
+        if component == "transformer":
+            # Transformer is expected in $/unit and is handled separately later.
+            val = record.get(band)
+            try:
+                if val and float(val) > 0:
+                    return float(val), "live_market"
+            except (TypeError, ValueError):
+                pass
+        else:
+            val_wp = _market_band_to_wp(record, band)
+            if val_wp and val_wp > 0:
+                return float(val_wp), "live_market"
+
+    variance = _BAND_VARIANCE.get(band, 1.0)
 
     # DB/fallback rate — use SAT-specific racking if applicable
     if component == "racking" and structure_type == "SAT" and fallback_rates:
         sat_rate = fallback_rates.get("racking_sat")
         if sat_rate:
-            return float(sat_rate), "db_rates"
+            return float(sat_rate) * variance, "db_rates"
 
-    return float(fallback_rate), "db_rates" if fallback_rate else "fallback"
+    return float(fallback_rate) * variance, "db_rates" if fallback_rate else "fallback"
 
 
 def calculate_capex_v2(
@@ -222,7 +389,7 @@ def calculate_capex_v2(
         eng_usd    = eng["total_usd"]
         eng_rate   = eng_usd / dc_watts if dc_watts else 0
         eng_source = "db_rates" if eng.get("source") == "db" else "fallback"
-        _add("Engineering (design + substation)", eng_rate, eng_usd, eng_source)
+        _add("Engineering", eng_rate, eng_usd, eng_source)
 
         # ── 9. Permitting (FIXED USD by MW band — not $/Wp) ──────────────────
         # If location intel provided a specific figure, prefer it
@@ -236,12 +403,13 @@ def calculate_capex_v2(
             perm_usd    = perm["total_usd"]
             perm_source = "db_rates" if perm.get("source") == "db" else "fallback"
         perm_rate = perm_usd / dc_watts if dc_watts else 0
-        _add("Permitting (3rd party + AHJ)", perm_rate, perm_usd, perm_source)
+        _add("Permitting", perm_rate, perm_usd, perm_source)
 
         # ── 10. Step-up transformer (NEW — V1 excluded) ──────────────────────
         if transformer_req and transformer_count > 0:
             trans_record = market_prices.get("transformer", {})
-            if trans_record and not trans_record.get("fallback", True):
+            trans_unit = str(trans_record.get("unit", "$/unit")).strip().lower() if trans_record else ""
+            if trans_record and not trans_record.get("fallback", True) and trans_unit in ("$/unit", "usd/unit", "per unit", "unit"):
                 unit_cost = float(trans_record.get(band, 0))
                 trans_src = "live_market"
             else:
@@ -264,46 +432,53 @@ def calculate_capex_v2(
             _add("FEOC compliance premium (non-FEOC module adder)",
                  FEOC_PREMIUM_PER_WP, feoc_amount, "db_rates")
 
-        # ── 13. Overhead / SGA ───────────────────────────────────────────────
-        overhead_rate   = rates["overhead"] + rates["sga"]
+        # ── 13. Overhead (includes SGA / indirect costs) ──────────────────────
+        # Historical data: overhead already includes all indirect costs.
+        # The Excel template has a single "Overhead" line item.
+        overhead_rate   = rates["overhead"] + rates.get("sga", 0.0)
         overhead_amount = overhead_rate * dc_watts
-        _add("Overhead and SGA", overhead_rate, overhead_amount, rate_source_tag)
+        _add("Overhead", overhead_rate, overhead_amount, rate_source_tag)
 
-        # ── Subtotal before bonding, contingency, margin ─────────────────────
+        # ── Subtotal (items 1–13, before margin and contingency) ─────────────
+        # This is the base for margin and contingency as per the Excel template.
         subtotal = sum(item["amount_usd"] for item in line_items)
 
-        # ── 14. Bonding ──────────────────────────────────────────────────────
-        bond_rate_pct = bond["rate_pct"]
-        bond_usd      = subtotal * bond_rate_pct
-        bond_rate_wp  = bond_usd / dc_watts if dc_watts else 0
-        bond_src      = "db_rates" if bond.get("source") == "db" else "fallback"
-        _add(f"Bonding ({bond_rate_pct * 100:.2f}%)", bond_rate_wp, bond_usd, bond_src)
-
-        subtotal_with_bond = subtotal + bond_usd
-
-        # ── 15. Contingency (size-tiered %) ──────────────────────────────────
-        contingency_pct = rates["contingency"]
-        contingency_usd = subtotal_with_bond * contingency_pct
-        contingency_wp  = contingency_usd / dc_watts if dc_watts else 0
-        _add(f"Contingency ({contingency_pct * 100:.0f}%)",
-             contingency_wp, contingency_usd, rate_source_tag)
-
-        subtotal_with_contingency = subtotal_with_bond + contingency_usd
-
-        # ── 16. Margin (size-tiered %) ────────────────────────────────────────
-        margin_pct = rates["margin"]
-        margin_usd = subtotal_with_contingency * margin_pct
+        # ── 14. Margin (10% of subtotal) ──────────────────────────────────────
+        # Excel formula: Margin = 10% × subtotal
+        # NOTE: margin is added BEFORE contingency (per CIR Excel template notes).
+        margin_pct = rates["margin"]   # 0.10
+        margin_usd = subtotal * margin_pct
         margin_wp  = margin_usd / dc_watts if dc_watts else 0
         _add(f"Margin ({margin_pct * 100:.0f}%)",
              margin_wp, margin_usd, rate_source_tag)
 
-        total_usd    = subtotal_with_contingency + margin_usd
+        # ── 15. Contingency (3% of subtotal + margin) ────────────────────────
+        # Excel formula: Contingency = 3% × (subtotal + margin)
+        # Verified against Mansfield actual: (1,595,540 + 159,554) × 3% = $52,653 ✓
+        contingency_pct = rates["contingency"]   # 0.03
+        contingency_usd = (subtotal + margin_usd) * contingency_pct
+        contingency_wp  = contingency_usd / dc_watts if dc_watts else 0
+        _add(f"Contingency ({contingency_pct * 100:.0f}%)",
+             contingency_wp, contingency_usd, rate_source_tag)
+
+        total_usd    = subtotal + margin_usd + contingency_usd
         total_per_wp = total_usd / dc_watts if dc_watts else 0
+
+        # ── Bonding (indicative — shown separately, NOT in EPC total) ────────
+        # Per CIR notes: "Bonding not included in offer, available upon request."
+        bond_rate_pct = bond["rate_pct"]
+        bond_usd_indicative = total_usd * bond_rate_pct
+        bond_rate_wp  = bond_usd_indicative / dc_watts if dc_watts else 0
+        bond_src      = "db_rates" if bond.get("source") == "db" else "fallback"
 
         results[band] = {
             "line_items":       line_items,
             "total_usd":        round(total_usd, 2),
             "total_per_wp":     round(total_per_wp, 4),
+            "bonding_indicative_usd":   round(bond_usd_indicative, 2),
+            "bonding_indicative_per_wp": round(bond_rate_wp, 4),
+            "bonding_rate_pct": round(bond_rate_pct * 100, 2),
+            "bonding_source":   bond_src,
             "overrides_applied": overrides_applied,
             "fallbacks_used":   fallbacks_used,
         }

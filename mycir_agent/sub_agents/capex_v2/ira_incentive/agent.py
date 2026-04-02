@@ -35,7 +35,8 @@ Energy community adder:      [energy_community_adder_pct]%  [or note]
 Total estimated ITC:         [total_itc_pct]%
 
 Estimated ITC value:         ~$[estimated_itc_value_usd] (preliminary)
-*(Based on rough CAPEX estimate — refined after cost calculation)*
+CAPEX basis:                 [capex_basis]
+*[capex_basis_note]*
 
 [state_incentive_note if non-empty]
 

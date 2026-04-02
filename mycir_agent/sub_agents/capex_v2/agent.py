@@ -131,8 +131,8 @@ capex_execution_pipeline = SequentialAgent(
         input_validation_agent,      # 1. validate before spending API calls
         system_design_agent,         # 2. inverter type, panel count, transformer
         parallel_research,           # 3. market prices + location costs (parallel)
-        ira_incentive_agent,         # 4. ITC rate and value
-        cost_calculation_agent_v2,   # 5. all arithmetic → 15 line items, 3 bands
+        cost_calculation_agent_v2,   # 4. all arithmetic → 15 line items, 3 bands
+        ira_incentive_agent,         # 5. ITC based on final base-case CAPEX
         benchmark_validation_agent,  # 6. quality gate — pass/warn/flag vs V1
     ],
 )
@@ -152,6 +152,10 @@ Rules:
 3) Call capex_execution_pipeline ONLY when all mandatory fields are present.
 4) Never run both phases in parallel.
 5) Do not do CAPEX work yourself; only orchestrate delegation.
+6) Keep responses user-friendly and transparent:
+   - Briefly tell user which phase is running (intake or estimation).
+   - Use simple progress wording like "collecting inputs", "running cost model",
+     "finalizing summary".
 """
 
 

@@ -118,6 +118,69 @@ def _parse_json_object(raw: str | None) -> dict[str, Any]:
         return {}
 
 
+def _normalized_key(key: str) -> str:
+    return "".join(ch for ch in key.strip().lower() if ch.isalnum() or ch == "_")
+
+
+def _canonicalize_project_input(project_in: dict[str, Any]) -> dict[str, Any]:
+    """
+    Accept checklist-style intake keys and map them to canonical project fields.
+    """
+    key_map = {
+        "projectname": "project_name",
+        "location": "site_address",
+        "dccapacitymwp": "dc_mwp",
+        "dccapacitymw": "dc_mwp",
+        "accapacitymwac": "ac_kw",
+        "accapacitymw": "ac_kw",
+        "accapacitykw": "ac_kw",
+        "typeofstructure": "structure_type",
+        "pointofinterconnectionpoivoltage": "poi_voltage",
+        "poivoltage": "poi_voltage",
+        "typeofinstallation": "installation_type",
+        "expectedcodprojecttimeline": "cod",
+        "expectedcod": "cod",
+        "additionalnotesrisks": "project_notes",
+        "additionalnotes": "project_notes",
+        "modulemakemodel": "module_make_model",
+        "invertermakemodel": "inverter_make_model",
+        "structuremakesupplier": "structure_make_supplier",
+    }
+
+    out: dict[str, Any] = {}
+    for raw_k, v in project_in.items():
+        if not isinstance(raw_k, str):
+            continue
+        norm_k = _normalized_key(raw_k)
+        canonical = key_map.get(norm_k, raw_k)
+
+        # AC capacity values from checklist are often MWac numbers without unit.
+        if canonical == "ac_kw" and norm_k in ("accapacitymwac", "accapacitymw"):
+            parsed = _to_float(v)
+            if parsed is not None:
+                out[canonical] = parsed * 1000.0
+                continue
+
+        out[canonical] = v
+    return out
+
+
+def _canonicalize_preferences_input(pref_in: dict[str, Any]) -> dict[str, Any]:
+    key_map = {
+        "modulemakemodel": "module_manufacturer",
+        "invertermakemodel": "inverter_manufacturer",
+        "structuremakesupplier": "structure_supplier",
+        "typeofstructure": "structure_preference",
+    }
+    out: dict[str, Any] = {}
+    for raw_k, v in pref_in.items():
+        if not isinstance(raw_k, str):
+            continue
+        canonical = key_map.get(_normalized_key(raw_k), raw_k)
+        out[canonical] = v
+    return out
+
+
 def upsert_intake_state(
     project_json: str,
     tool_context: ToolContext,
@@ -130,8 +193,8 @@ def upsert_intake_state(
     values (use null for unknown fields). This function merges with existing
     session state, normalizes core fields, and returns missing mandatory fields.
     """
-    project_in = _parse_json_object(project_json)
-    pref_in = _parse_json_object(preferences_json)
+    project_in = _canonicalize_project_input(_parse_json_object(project_json))
+    pref_in = _canonicalize_preferences_input(_parse_json_object(preferences_json))
 
     existing_project = tool_context.state.get("project")
     existing_pref = tool_context.state.get("preferences")
@@ -181,6 +244,20 @@ def upsert_intake_state(
     for k, v in pref_in.items():
         if v is not None:
             merged_pref[k] = v
+
+    # Promote checklist equipment fields into preferences when not explicitly set.
+    if _is_missing(merged_pref.get("module_manufacturer")) and not _is_missing(
+        merged_project.get("module_make_model")
+    ):
+        merged_pref["module_manufacturer"] = merged_project.get("module_make_model")
+    if _is_missing(merged_pref.get("inverter_manufacturer")) and not _is_missing(
+        merged_project.get("inverter_make_model")
+    ):
+        merged_pref["inverter_manufacturer"] = merged_project.get("inverter_make_model")
+    if _is_missing(merged_pref.get("structure_supplier")) and not _is_missing(
+        merged_project.get("structure_make_supplier")
+    ):
+        merged_pref["structure_supplier"] = merged_project.get("structure_make_supplier")
 
     merged_pref.setdefault("prevailing_wage", False)
     merged_pref.setdefault("ira_domestic_content", False)

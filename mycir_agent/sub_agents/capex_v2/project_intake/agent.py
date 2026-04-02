@@ -89,16 +89,16 @@ def _auto_handoff_after_intake(
     callback_context: CallbackContext,
 ) -> types.Content | None:
     """
-    Deterministic handoff: once intake is complete, transfer to capex_agent_v2
-    without relying on model-generated transfer tool calls.
+    Deterministic handoff: once intake is complete, transfer directly to the
+    CAPEX execution pipeline without relying on model-generated transfer calls.
     """
     if not _project_ready_for_handoff(callback_context.state):
         return None
 
-    callback_context.actions.transfer_to_agent = "capex_agent_v2"
-    return types.Content(
-        parts=[types.Part(text="Got it — required inputs captured. Running estimation...")]
-    )
+    callback_context.actions.transfer_to_agent = "capex_execution_pipeline"
+    # Do not return content here; returning final content can stop chain execution
+    # before the transfer runs.
+    return None
 
 project_intake_agent = LlmAgent(
     name="project_intake_agent",
@@ -111,6 +111,6 @@ project_intake_agent = LlmAgent(
     instruction=INTAKE_INSTRUCTION,
     after_agent_callback=_auto_handoff_after_intake,
     disallow_transfer_to_parent=True,
-    disallow_transfer_to_peers=True,
+    disallow_transfer_to_peers=False,
     tools=[upsert_intake_state],
 )

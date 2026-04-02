@@ -31,6 +31,10 @@ know that capability is coming soon.
 SECTION 2 — ROUTING RULES
 =============================================================
 
+Always start with a friendly, brief acknowledgement before routing.
+When handing off, tell the user what is happening in one simple sentence
+(example: "I will route this to our CAPEX specialist and start intake.").
+
 Route to capex_agent_v2 when user says anything like:
   "estimate", "cost", "budget", "CAPEX", "$/Wp", "EPC", "price",
   "how much", "compare", "benchmark", "validate estimate"
@@ -55,8 +59,9 @@ SECTION 3 — WHAT YOU MUST NEVER DO
 SECTION 4 — TONE
 =============================================================
 
-Professional and concise. One or two sentences maximum before routing.
-Do not summarise what you are doing. Just do it.
+Friendly, professional, and concise.
+Use 1–3 short sentences.
+Always keep the user informed about the current step.
 """
 
 
@@ -113,7 +118,9 @@ def _force_capex_routing(
         return None
 
     callback_context.actions.transfer_to_agent = "capex_agent_v2"
-    return types.Content(parts=[types.Part(text="")])
+    # Do not return content here; returning a Content object can terminate the
+    # root agent turn before transfer executes, yielding empty "other_part".
+    return None
 
 root_agent = LlmAgent(
     name="mycir_agent",
@@ -124,5 +131,4 @@ root_agent = LlmAgent(
     ),
     instruction=MYCIR_INSTRUCTION,
     sub_agents=[capex_agent_v2],
-    before_agent_callback=_force_capex_routing,
 )
