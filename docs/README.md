@@ -18,7 +18,7 @@ This folder contains all design and technical documentation for the MyCIR Agent 
 | 06 | [Benchmark Validation](06_benchmark_validation.md) | How V1 vs V2 comparison works, flag/warn/pass logic, benchmark log format |
 | 07 | [ADK Technical Design](07_adk_technical_design.md) | Session persistence, parallel agents, error callbacks, observability, build order |
 | 08 | [Compliance & Regulatory](08_compliance_regulatory.md) | FEOC, prevailing wage, IRA tax credits, CA-specific, tariffs, interconnection |
-| 09 | [Hosting & feedback](09_hosting_and_feedback.md) | Publish docs (GitHub Pages, MkDocs), Giscus comments, Issues/PR alternatives |
+| 09 | [Pricing Database](09_pricing_database.md) | PostgreSQL pricing tables, Excel import strategy, size-tiered rate schema, bonding, state tax |
 
 ---
 
@@ -71,4 +71,6 @@ Export Agent           →  Excel / PDF on request
 |---|---|
 | V1 CAPEX Agent | Complete — do not modify |
 | Documentation (this folder) | Complete |
-| MyCIR Agent V2 code | To build — see [07](07_adk_technical_design.md) for build order |
+| MyCIR Agent V2 code | Complete — all 32 agent files implemented |
+| Pricing database | Complete — 5 tables seeded from Excel in docker/init.sql |
+| Excel import script | scripts/import_pricing_from_excel.py — run after Excel updates |

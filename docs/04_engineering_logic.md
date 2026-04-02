@@ -310,3 +310,87 @@ The `design_system()` tool returns a complete BOM for transparency:
   "land_area_acres": 32.5
 }
 ```
+
+---
+
+## 8. Pricing Rate Tables (from Excel database)
+
+All rates are stored in PostgreSQL and queried by `pricing_db.py`.
+Source: `250630_Database of Indicative System Prices_V2_SS_GB.xlsx`
+See [doc 09 — Pricing Database](09_pricing_database.md) for schema details.
+
+### 8.1 Ground Mount (GM) — $/Wp by size band
+
+| Size band | Module | Inverter | Racking FT | Racking SAT | BOS | Mech | Elec | Civil | Contingency | Margin |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0–0.5 MWp | 0.32 | 0.09 | 0.21 | 0.27 | 0.35 | 0.17 | 0.20 | 0.12 | 10% | 18% |
+| 0.5–1 MWp | 0.28 | 0.09 | 0.21 | 0.26 | 0.35 | 0.17 | 0.20 | 0.12 | 5% | 15% |
+| 1–3 MWp   | 0.24 | 0.09 | 0.21 | 0.25 | 0.32 | 0.17 | 0.20 | 0.12 | 5% | 12% |
+| 3–5 MWp   | 0.22 | 0.07 | 0.18 | 0.24 | 0.30 | 0.17 | 0.20 | 0.12 | 3% | 10% |
+| 5–20 MWp  | 0.22 | 0.07 | 0.18 | 0.23 | 0.30 | 0.17 | 0.20 | 0.12 | 2.5% | 10% |
+| 20–50 MWp | 0.22 | 0.05 | 0.16 | 0.22 | 0.28 | 0.15 | 0.18 | 0.10 | 2.5% | 10% |
+| 50+ MWp   | 0.22 | 0.04 | 0.16 | 0.20 | 0.25 | 0.15 | 0.18 | 0.08 | 2% | 10% |
+
+> Labour rates (Mech + Elec) are national baselines multiplied by `location_costs.labour_multiplier`.
+> Racking SAT applies only when `system_design.structure_type == "SAT"`.
+
+### 8.2 Rooftop (RT) and Carport (CP) — $/Wp by size band
+
+| Type | Size band | Module | Inverter | Racking | BOS | Mech | Elec | Civil | Contingency | Margin |
+|---|---|---|---|---|---|---|---|---|---|---|
+| RT | 0–0.5 MWp | 0.43 | 0.096 | 0.35 | 0.45 | 0.25 | 0.45 | 0.05 | 10% | 20% |
+| RT | 0.5–2 MWp | 0.43 | 0.096 | 0.35 | 0.44 | 0.25 | 0.45 | 0.05 | 5% | 15% |
+| RT | 2–4 MWp   | 0.38 | 0.09  | 0.30 | 0.40 | 0.25 | 0.45 | 0.05 | 5% | 15% |
+| RT | 4+ MWp    | 0.35 | 0.087 | 0.28 | 0.35 | 0.22 | 0.40 | 0.05 | 3% | 12% |
+| CP | 0–0.5 MWp | 0.43 | 0.096 | 0.45 | 0.45 | 0.30 | 0.45 | 0.08 | 10% | 20% |
+| CP | 0.5–2 MWp | 0.40 | 0.096 | 0.40 | 0.44 | 0.28 | 0.45 | 0.08 | 5% | 15% |
+| CP | 2+ MWp    | 0.38 | 0.09  | 0.38 | 0.40 | 0.25 | 0.40 | 0.08 | 5% | 12% |
+
+### 8.3 Engineering — Fixed USD by MW band
+
+Engineering is a **fixed cost**, not $/Wp. These amounts do not scale linearly
+with system size — they reflect real engineering scope (drawings, studies, design).
+
+| Size band   | Electrical BOP | Civil BOP | Substation | Total |
+|---|---|---|---|---|
+| 0–1 MWp     | $12,000 | $12,000 | $20,000 | **$44,000** |
+| 1–2 MWp     | $18,000 | $18,000 | $20,000 | **$56,000** |
+| 2–3 MWp     | $24,000 | $28,000 | $20,000 | **$72,000** |
+| 3–5 MWp     | $30,000 | $35,000 | $20,000 | **$85,000** |
+| 5–7 MWp     | $40,000 | $45,000 | $35,000 | **$120,000** |
+| 7–10 MWp    | $50,000 | $55,000 | $50,000 | **$155,000** |
+| 10–20 MWp   | $60,000 | $70,000 | $115,000 | **$245,000** |
+| 20–40 MWp   | $80,000 | $90,000 | $160,000 | **$330,000** |
+| 40–60 MWp   | $100,000 | $110,000 | $200,000 | **$410,000** |
+| 60–100 MWp  | $110,000 | $120,000 | $235,000 | **$465,000** |
+| 100+ MWp    | $120,000 | $130,000 | $270,000 | **$520,000** |
+
+### 8.4 Permitting — Fixed USD by MW band
+
+Includes: local counsel, Phase I ESA, biological/cultural studies, ALTA survey,
+geotechnical, SWPPP, grading design, permit facilitation.
+
+| Size band  | Total |
+|---|---|
+| 0–1 MWp   | $45,000 |
+| 1–2 MWp   | $65,000 |
+| 2–3 MWp   | $99,000 |
+| 3–5 MWp   | $130,000 |
+| 5–7 MWp   | $160,000 |
+| 7–10 MWp  | $200,000 |
+| 10–20 MWp | $280,000 |
+| 20+ MWp   | $400,000 |
+
+> If Location Intel Agent returns a project-specific permitting figure
+> (from AHJ research), that overrides the table value.
+
+### 8.5 Bonding — Rate by size
+
+| Size band    | Rate |
+|---|---|
+| 0–1 MWp      | 1.50% |
+| 1–50 MWp     | 1.30% |
+| 50–150 MWp   | 1.25% |
+| 150+ MWp     | 1.00% |
+
+Applied to subtotal before contingency and margin.

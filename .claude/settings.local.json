@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(uv sync:*)",
-      "Bash(find /c/Users/rajnish/KrRajnish/agent/mycir_agent_ADK_v1/capex_agent -type f -name *.py)"
+      "Bash(find /c/Users/rajnish/KrRajnish/agent/mycir_agent_ADK_v1/capex_agent -type f -name *.py)",
+      "Bash(uv run:*)",
+      "Bash(xargs grep:*)",
+      "Bash(python3:*)"
     ]
   }
 }
